@@ -8,6 +8,7 @@ The provided sample includes:
 - Authenticating and connecting to the GitHub API via Linx.
 - Get a bot user token in Slack
 - Post messages to Slack using Bot User for GitHub commits for a time period. 
+- Post messages to Slack using Bot User for GitHub issues for a time period.
 
 This sample shows how Linx automatically post messages to Slack.
 Once this GitHub-Slack integration is active, the sample posts messages to Slack Channel. 
@@ -23,6 +24,7 @@ Once this GitHub-Slack integration is active, the sample posts messages to Slack
 - [Slack API documentation](https://api.slack.com/apis)
 - [Test apis from browser](https://api.slack.com/methods/chat.postMessage/test)
 - [Slack reference for block kit](https://api.slack.com/reference/block-kit)
+- [Simpler Slack sample get started](https://github.com/linx-software/slack-devops-management)
 ---
 
 ## Dependencies
@@ -88,6 +90,10 @@ Note that access token generated is stored in the file's path defined in `TokenL
        	- channels:history
        	- im:write
        	- chat:write.public
+       	- channels:read  
+       	- groups:read  
+       	- im:read  
+       	- mpim:read  
 6. As the above is done, a message `You can now show tabs on App HomeManage which tabs your user sees in your app’s home. Go to App Home` will appear.
 7. Scroll the page up and go to the section `OAuth Tokens for Your Workspace`
 8. Click on the button **Install to workspace** and click on **Allow**
@@ -127,9 +133,8 @@ When making requests to the GitHub, you must also include the following header:
 Accept: application/x-www-form-urlencoded , application/json
 ```
 ---
-
-## GitHub Utilities samples 
-
+## GitHub Generic samples 
+---
 ### GetReposForOwner
 
 Lists repositories for the specified organization.
@@ -151,10 +156,29 @@ Parameters:
 | until        |string query   | Only commits before this date will be returned. This is a timestamp in ISO 8601 format: YYYY-MM-DDTHH:MM:SSZ.|
 | per_page     |integer query  | Results per page (max 100). Default: 30. |
 
+### GetIssues 
+
+List issues in a repository.
+
+https://docs.github.com/en/rest/reference/issues#list-repository-issues
+
+Parameters:
+
+| Parameter      |    Type            |   					    |
+| -------------  |------------- | ------------------------------------------|
+| since         |string query   | Only show notifications updated after the given time. This is a timestamp in ISO 8601 format: YYYY-MM-DDTHH:MM:SSZ.|
+| state        |string query   | Indicates the state of the issues to return. Can be either open, closed, or all.  Default: open|
+| per_page     |integer query  | Results per page (max 100). Default: 30. |
+
 ---
-## Slack Utilities samples 
+## GitHub Utilities Samples 
+---
+### GetAuthenticatedUserForGitHubTest
+A function to test the authentication is working.  Gets the authenticated user info.  Calls the api https://api.github.com/user
+
+## Slack Utilities Samples 
 ### AuthorizationTest
-A function to test if you've entered the right token and the right channel.  Tests the api https://slack.com/api/auth.test.
+A function to test if you've entered the right token and the right channel.  Calls the api https://slack.com/api/auth.test.
 
 ### GetCustomizedCommitsForRepos
 Reads commits from GitHub and populates cutomized types.
@@ -162,28 +186,54 @@ Reads commits from GitHub and populates cutomized types.
    - Same parameters as in GetCommits above.
 - Result:
    - `commitList` : List of customized commits
-### BuildBlocks
-Messages can be sent to Slack with different parameters.  In this section, we build blocks that are sent as JSON to Slack.
+### BuildBlocksForCommit
+Messages can be sent to Slack with different parameters.  In this section, we build blocks from commitList, that are sent as JSON to Slack.
 - Parameters:
    - Same parameters as in GetCustomizedCommitsForRepos above.
    - 'commitList' from 'GetCustomizedCommitsForRepos' above   
 - Result:
    - `blocks` : String type that stores the JSON blocks
+### BuildBlocksForIssue 
+Messages can be sent to Slack with different parameters.  In this section, we build blocks from issue, that are sent as JSON to Slack.
+- Parameters:  
+   - 'issue' : Linx type
+- Result:
+   - `blocks` : String type that stores the JSON blocks
+### PostIssuesToSlack 
+A function that gets issues, builds blocks and posts message to slack using the PostMessageAPI above.
+
+### PostCommitsToSlack 
+A function that gets commits, builds blocks and posts message to slack using the PostMessageAPI above.
+
+---
+## Slack Generic Samples 
 ### PostMessageAPI
 Calls the Post message API https://api.slack.com/methods/chat.postMessage
 - Parameters:
-   - `blocks` : String type in JSON format  
-   - `text`:  String type.     
+   - `blocks` : String type in JSON format   
+
+### GetChannels  
+Calls the Get API https://api.slack.com/methods/conversations.list.  Lists all channels in a Slack team.
+
+### GetChannelForName
+Gets the Channel's name.
+
 ---
 ## Running the Sample
-
-In the Slack Folder, Click on the function named PostMessageToSlack
+In the **Demo Folder**, 
+- To post commits info to Slack, click on the function `PostCommitsToChannelForChannelName`.
 Enter parameters as follows:
-
-- `Per_page`: 1
-- `Since`: start date of commits (e.g Yesterday's date or any other date before ‘until date below’: 2021-05-26)
-- `Until`: end date of commits (e.g Today's date : 2021-05-27)
-
+   - `Per_page`: 1
+   - `Since`: start date of commits (e.g Yesterday's date or any other date before ‘until date below’: 2021-05-26)
+   - `Until`: end date of commits (e.g Today's date : 2021-05-27)
+- To post issues info to Slack, click on the function `PostIssuesToChannelForChannelName`. [GitHub Issues API reference](https://docs.github.com/en/rest/reference/issues#list-repository-issues) provides a list of paramaters that can be used with the API call.  In our sample, we are using the following hard-coded values:
+   - state : all   
+Other parameters are as follows:
+  - `Per_page`: 1
+  - `Since`: start date of commits (e.g Yesterday's date : 2021-05-26)
+  - `Channel`: Enter channel name to search for from list of channels 
+---
+If you want to post message to a private channel or and receiving **channel_not_found** message, you should invite the bot to the channel. A bot can't post in a private channel if it's not a member. 
 
 
 
