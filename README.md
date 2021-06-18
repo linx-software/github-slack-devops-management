@@ -183,20 +183,20 @@ A function to test if you've entered the right token and the right channel.  Cal
 ### GetCustomizedCommitsForRepos
 Reads commits from GitHub and populates cutomized types.
 - Parameters:
-   - Same parameters as in GetCommits above.
+   - Same parameters as in `GetCommits` above.
 - Result:
    - `commitList` : List of customized commits
 ### BuildBlocksForCommit
 Messages can be sent to Slack with different parameters.  In this section, we build blocks from commitList, that are sent as JSON to Slack.
 - Parameters:
-   - Same parameters as in GetCustomizedCommitsForRepos above.
-   - 'commitList' from 'GetCustomizedCommitsForRepos' above   
+   - Same parameters as in `GetCustomizedCommitsForRepos` above.
+   - `commitList` from `GetCustomizedCommitsForRepo`' above   
 - Result:
    - `blocks` : String type that stores the JSON blocks
 ### BuildBlocksForIssue 
 Messages can be sent to Slack with different parameters.  In this section, we build blocks from issue, that are sent as JSON to Slack.
 - Parameters:  
-   - 'issue' : Linx type
+   - `issue` : Linx type
 - Result:
    - `blocks` : String type that stores the JSON blocks
 ### PostIssuesToSlack 
@@ -235,7 +235,5 @@ Other parameters are as follows:
 ---
 If you want to post message to a private channel or and receiving **channel_not_found** message, you should invite the bot to the channel. A bot can't post in a private channel if it's not a member. 
 
----
-If you want to post message to a private channel or and receiving **channel_not_found** message, you should invite the bot to the channel. A bot can't post in a private channel if it's not a member. 
 
 
