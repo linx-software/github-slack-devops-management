@@ -1,6 +1,6 @@
 # Github and Slack - DevOps Management
 
-## Overview
+## Description
 
 The provided sample includes:
 
@@ -27,7 +27,7 @@ Once this GitHub-Slack integration is active, the sample posts messages to Slack
 - [Simpler Slack sample get started](https://github.com/linx-software/slack-devops-management)
 ---
 
-## Dependencies
+## Installation
 
 ### Pre-requisites
 
@@ -219,7 +219,7 @@ Calls the Get API https://api.slack.com/methods/conversations.list.  Lists all c
 Gets the Channel's name.
 
 ---
-## Running the Sample
+## Usage
 In the **Demo Folder**, 
 - To post commits info to Slack, click on the function `PostCommitsToChannelForChannelName`.
 Enter parameters as follows:
