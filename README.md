@@ -235,5 +235,12 @@ Other parameters are as follows:
 ---
 If you want to post message to a private channel or and receiving **channel_not_found** message, you should invite the bot to the channel. A bot can't post in a private channel if it's not a member. 
 
+## Contributing
+
+For questions please ask the [Linx community](https://linx/software/community) or use the [Slack channel](https://linxsoftware.slack.com/archives/C01FLBC1XNX). 
+
+## License
+
+[MIT](https://github.com/linx-software/template-repo/blob/main/LICENSE.txt)
 
 
