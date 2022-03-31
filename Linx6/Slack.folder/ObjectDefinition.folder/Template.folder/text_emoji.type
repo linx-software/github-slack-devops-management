@@ -1,0 +1,16 @@
+{
+  "Id": "WTAV",
+  "Name": "text_emoji",
+  "Properties": [
+    {
+      "Id": "Qnsm",
+      "Name": "type",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "09xg",
+      "Name": "text",
+      "Type": "Compiled:String"
+    }
+  ]
+}

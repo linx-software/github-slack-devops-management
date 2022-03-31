@@ -1,0 +1,96 @@
+{
+  "Properties": [
+    {
+      "Id": "8chj",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Settings.GitHubScope",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "gseW",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Settings.GitHubApiHost",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "H3WZ",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Settings.GitHubLocalhostUri + $.Settings.GitHubRedirectPath",
+        "CompiledExpression": "={1}+{0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Le9t",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "/login/oauth/authorize"
+    },
+    {
+      "Id": "ParameterNameMapping",
+      "Type": "Compiled:System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "Le9t": "authorize_endpoint",
+        "Q3jS": "client_id",
+        "gseW": "host",
+        "H3WZ": "redirect_uri",
+        "RAeO": "response_type",
+        "8chj": "scope",
+        "vPrY": "state"
+      },
+      "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "Id": "Process",
+      "Type": "Compiled:Twenty57.Linx.Interfaces.StandardComponent.IProcessReference, Twenty57.Linx.Interfaces.StandardComponent, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "Id": "BCMx",
+        "Name": "GenericOAuth2.GenerateAuthorizationUri",
+        "Parameters": "Generated:TpdK",
+        "Result": "Compiled:String",
+        "IsValid": true,
+        "QualifiedPath": "FL:GenericOAuth2→PC:GenerateAuthorizationUri"
+      },
+      "ValueType": "Twenty57.Linx.Domain.ProcessReference, Twenty57.Linx.Domain, Version=6.0.5.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "Id": "Q3jS",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Settings.GitHubClientId",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "RAeO",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "code"
+    },
+    {
+      "Id": "vPrY",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "QjKcs"
+    }
+  ],
+  "Result": "Compiled:String"
+}

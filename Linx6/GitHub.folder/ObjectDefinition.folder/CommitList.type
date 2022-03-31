@@ -1,0 +1,26 @@
+{
+  "Id": "BC2Q",
+  "Name": "CommitList",
+  "Properties": [
+    {
+      "Id": "eXGj",
+      "Name": "commitList",
+      "Type": "List:Custom:La1B"
+    },
+    {
+      "Id": "RozC",
+      "Name": "created_at",
+      "Type": "Compiled:DateTime"
+    },
+    {
+      "Id": "SQ7l",
+      "Name": "repo",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "oz64",
+      "Name": "repoUrl",
+      "Type": "Compiled:String"
+    }
+  ]
+}

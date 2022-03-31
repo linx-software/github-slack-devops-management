@@ -1,0 +1,73 @@
+{
+  "Properties": [
+    {
+      "Id": "Type",
+      "Type": "Compiled:Linx.ITypeReference",
+      "ValueUsage": "DesignTime",
+      "Value": "Custom:hXA6",
+      "ValueType": "Linx.ValidCustomTypeReference"
+    },
+    {
+      "Id": "Value",
+      "Type": "Custom:hXA6",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"body\":{\"LinxExpression\":\"[PARSED]\"}, \"created_at\":{\"LinxExpression\":\"[PARSED]\"}, \"repoName\":{\"LinxExpression\":\"[PARSED]\"}, \"repoUrl\":{\"LinxExpression\":\"[PARSED]\"}, \"title\":{\"LinxExpression\":\"[PARSED]\"}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "body"
+            ],
+            "expression": {
+              "Expression": "ForEach.Loop.body",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "created_at"
+            ],
+            "expression": {
+              "Expression": "ForEach.Loop.created_at",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:DateTime"
+            }
+          },
+          {
+            "typePath": [
+              "repoName"
+            ],
+            "expression": {
+              "Expression": "ForEachRepo.Loop.name",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "repoUrl"
+            ],
+            "expression": {
+              "Expression": "ForEachRepo.Loop.html_url",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "title"
+            ],
+            "expression": {
+              "Expression": "ForEach.Loop.title",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    }
+  ],
+  "Result": "Custom:hXA6"
+}

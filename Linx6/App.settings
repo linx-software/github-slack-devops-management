@@ -1,0 +1,80 @@
+[
+  {
+    "Id": "uWoq",
+    "Name": "GitHubApiHost",
+    "Type": "Compiled:String",
+    "Value": "https://github.com"
+  },
+  {
+    "Id": "mC9p",
+    "Name": "GitHubClientId",
+    "Type": "Compiled:String",
+    "Secret": true
+  },
+  {
+    "Id": "duCH",
+    "Name": "GitHubClientSecret",
+    "Type": "Compiled:String",
+    "Secret": true
+  },
+  {
+    "Id": "l9Ej",
+    "Name": "GitHubLocalhostUri",
+    "Type": "Compiled:String",
+    "Value": "http://localhost:8080"
+  },
+  {
+    "Id": "rubX",
+    "Name": "GitHubRedirectPath",
+    "Type": "Compiled:String",
+    "Value": "/oauth/token"
+  },
+  {
+    "Id": "IK79",
+    "Name": "GitHubScope",
+    "Type": "Compiled:String",
+    "Value": "repo, user"
+  },
+  {
+    "Id": "fGCw",
+    "Name": "GitHubTokenLogPath",
+    "Type": "Compiled:String",
+    "Value": "{rootPath}\\OAuth2\\token.txt"
+  },
+  {
+    "Id": "O3LB",
+    "Name": "rootPath",
+    "Type": "Compiled:String",
+    "Value": "c:\\temp\\Linx"
+  },
+  {
+    "Id": "vmI6",
+    "Name": "GitHubApiBaseUrl",
+    "Type": "Compiled:String",
+    "Value": "https://api.github.com"
+  },
+  {
+    "Id": "ifUc",
+    "Name": "GitHubOwner",
+    "Type": "Compiled:String",
+    "Value": ""
+  },
+  {
+    "Id": "uKwD",
+    "Name": "SlackBotUserOAuth",
+    "Type": "Compiled:String",
+    "Secret": true
+  },
+  {
+    "Id": "y1vY",
+    "Name": "SlackUri",
+    "Type": "Compiled:String",
+    "Value": "https://slack.com/api/"
+  },
+  {
+    "Id": "j8tc",
+    "Name": "SlackChannel",
+    "Type": "Compiled:String",
+    "Value": ""
+  }
+]

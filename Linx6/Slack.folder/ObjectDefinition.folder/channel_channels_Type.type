@@ -1,0 +1,21 @@
+{
+  "Id": "H2NJ",
+  "Name": "channel_channels_Type",
+  "Properties": [
+    {
+      "Id": "4Q5J",
+      "Name": "value",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "t9Qt",
+      "Name": "creator",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "yT3C",
+      "Name": "last_set",
+      "Type": "Compiled:Int64"
+    }
+  ]
+}

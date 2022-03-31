@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "87jm",
+      "Properties": [
+        {
+          "Id": "J83G",
+          "Name": "per_page",
+          "Type": "Compiled:Int64",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "kypl",
+          "Name": "repo",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "1KFE",
+          "Name": "since",
+          "Type": "Compiled:DateTime",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "oCoR",
+          "Name": "state",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "oF62",
+          "Name": "token",
+          "Type": "Custom:2nzn",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

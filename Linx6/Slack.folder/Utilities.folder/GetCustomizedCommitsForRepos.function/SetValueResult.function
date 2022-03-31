@@ -1,0 +1,26 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "List:Custom:BC2Q",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "CommitListForRepo",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:BC2Q"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "List:Custom:BC2Q",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:BC2Q"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

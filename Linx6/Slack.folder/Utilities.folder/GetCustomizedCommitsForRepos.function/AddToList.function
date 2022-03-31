@@ -1,0 +1,66 @@
+{
+  "Properties": [
+    {
+      "Id": "List",
+      "Type": "List:Custom:BC2Q",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "CommitListForRepo",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:BC2Q"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Value",
+      "Type": "Custom:BC2Q",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"commitList\":{\"LinxExpression\":\"[PARSED]\"}, \"created_at\":{\"LinxExpression\":\"[PARSED]\"}, \"repo\":{\"LinxExpression\":\"[PARSED]\"}, \"repoUrl\":{\"LinxExpression\":\"[PARSED]\"}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "commitList"
+            ],
+            "expression": {
+              "Expression": "tempCommitList",
+              "CompiledExpression": "={0}",
+              "Type": "List:Custom:La1B"
+            }
+          },
+          {
+            "typePath": [
+              "created_at"
+            ],
+            "expression": {
+              "Expression": "ForEach.Loop.created_at",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:DateTime"
+            }
+          },
+          {
+            "typePath": [
+              "repo"
+            ],
+            "expression": {
+              "Expression": "ForEach.Loop.full_name",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "repoUrl"
+            ],
+            "expression": {
+              "Expression": "ForEach.Loop.html_url",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    }
+  ]
+}

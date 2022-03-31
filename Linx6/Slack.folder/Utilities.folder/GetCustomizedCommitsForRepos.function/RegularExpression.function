@@ -1,0 +1,40 @@
+{
+  "Properties": [
+    {
+      "Id": "Action",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Text.RegularExpression.RegexAction, Twenty57.Linx.Plugins.Text, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "Replace"
+    },
+    {
+      "Id": "Expression",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "\\n"
+    },
+    {
+      "Id": "Input string",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "GetCommits",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Options",
+      "Type": "Compiled:System.Text.RegularExpressions.RegexOptions, System.Text.RegularExpressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+      "ValueUsage": "DesignTime",
+      "Value": "Multiline"
+    },
+    {
+      "Id": "Replace with",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": ""
+    }
+  ],
+  "Result": "Compiled:String"
+}

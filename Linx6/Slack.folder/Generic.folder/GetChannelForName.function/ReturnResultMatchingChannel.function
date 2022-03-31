@@ -1,0 +1,26 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Custom:ZL6T",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "GetChannels.channels.Where(channel => channel.name_normalized.ToLower() ==  $.Parameters.ChannelNameNormalized.ToLower()).FirstOrDefault()",
+        "CompiledExpression": "={1}.Where(channel=>channel.name_normalized.ToLower()=={0}.ToLower()).FirstOrDefault()",
+        "Type": "Custom:ZL6T"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Custom:ZL6T",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Custom:ZL6T"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

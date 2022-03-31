@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "i3cT",
+      "Properties": [
+        {
+          "Id": "A4Lw",
+          "Name": "client_id",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ZEUD",
+          "Name": "client_secret",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "BVP9",
+          "Name": "code",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ekQ0",
+          "Name": "host",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "XAJK",
+          "Name": "redirect_uri",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "nlQW",
+          "Name": "state",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "xdp2",
+          "Name": "token_endpoint",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

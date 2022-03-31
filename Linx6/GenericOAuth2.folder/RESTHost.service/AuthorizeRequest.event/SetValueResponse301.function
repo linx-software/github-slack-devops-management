@@ -1,0 +1,40 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Generated:pTpO",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"HttpContext\":{\"StatusCode\":301, \"Headers\":[{\"Name\":\"Location\", \"Value\":[{\"LinxExpression\":\"[PARSED]\"}]}]}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "HttpContext",
+              "Headers",
+              "[]",
+              "Value",
+              "[]"
+            ],
+            "expression": {
+              "Expression": "GenerateAuthorizationUri",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Generated:pTpO",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:pTpO"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

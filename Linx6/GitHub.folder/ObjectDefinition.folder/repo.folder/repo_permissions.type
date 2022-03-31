@@ -1,0 +1,31 @@
+{
+  "Id": "nbG5",
+  "Name": "repo_permissions",
+  "Properties": [
+    {
+      "Id": "vWUD",
+      "Name": "admin",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "xaK0",
+      "Name": "maintain",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "5Ov8",
+      "Name": "push",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "31s7",
+      "Name": "triage",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "LvI2",
+      "Name": "pull",
+      "Type": "Compiled:Boolean"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "ExecutionPaths": [
+    {
+      "PluginId": "Loop",
+      "Name": "Loop",
+      "Result": "List:Custom:7KzL",
+      "Order": 0,
+      "IterationHint": "ZeroOrMore"
+    }
+  ],
+  "Properties": [
+    {
+      "Id": "List",
+      "Type": "List:Custom:7KzL",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "GetReposForOwner",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:7KzL"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

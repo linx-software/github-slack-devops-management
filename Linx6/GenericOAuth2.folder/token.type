@@ -1,0 +1,21 @@
+{
+  "Id": "2nzn",
+  "Name": "token",
+  "Properties": [
+    {
+      "Id": "25iM",
+      "Name": "access_token",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "tZui",
+      "Name": "scope",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "ySGo",
+      "Name": "token_type",
+      "Type": "Compiled:String"
+    }
+  ]
+}

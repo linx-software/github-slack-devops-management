@@ -1,0 +1,24 @@
+{
+  "ExecutionPaths": [
+    {
+      "PluginId": "Loop",
+      "Name": "Loop",
+      "Result": "List:Custom:dZQ4",
+      "Order": 0,
+      "IterationHint": "ZeroOrMore"
+    }
+  ],
+  "Properties": [
+    {
+      "Id": "List",
+      "Type": "List:Custom:dZQ4",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "Issues",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:dZQ4"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "Id": "dZQ4",
+  "Name": "issue",
+  "Properties": [
+    {
+      "Id": "02fi",
+      "Name": "id",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "IrQ1",
+      "Name": "node_id",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "Le3A",
+      "Name": "url",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "xXjL",
+      "Name": "repository_url",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "2Zuw",
+      "Name": "labels_url",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "uo8n",
+      "Name": "comments_url",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "nuqp",
+      "Name": "events_url",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "I7js",
+      "Name": "html_url",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "IiN9",
+      "Name": "number",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "Vycj",
+      "Name": "state",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "Kh5F",
+      "Name": "title",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "sbzx",
+      "Name": "body",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "64fY",
+      "Name": "user",
+      "Type": "Custom:M2dI"
+    },
+    {
+      "Id": "6MCt",
+      "Name": "labels",
+      "Type": "List:Custom:lYkm"
+    },
+    {
+      "Id": "kk1J",
+      "Name": "assignee",
+      "Type": "Custom:M2dI"
+    },
+    {
+      "Id": "u5Yd",
+      "Name": "assignees",
+      "Type": "List:Custom:orGM"
+    },
+    {
+      "Id": "xOlb",
+      "Name": "milestone",
+      "Type": "Custom:xL5Y"
+    },
+    {
+      "Id": "E6XX",
+      "Name": "locked",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "ilMB",
+      "Name": "active_lock_reason",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "IELH",
+      "Name": "comments",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "tV6p",
+      "Name": "pull_request",
+      "Type": "Custom:7cJs"
+    },
+    {
+      "Id": "3s0F",
+      "Name": "closed_at",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "lgMh",
+      "Name": "created_at",
+      "Type": "Compiled:DateTime"
+    },
+    {
+      "Id": "i57i",
+      "Name": "updated_at",
+      "Type": "Compiled:DateTime"
+    },
+    {
+      "Id": "hcLK",
+      "Name": "closed_by",
+      "Type": "Custom:M2dI"
+    },
+    {
+      "Id": "Uyfj",
+      "Name": "author_association",
+      "Type": "Compiled:String"
+    }
+  ]
+}

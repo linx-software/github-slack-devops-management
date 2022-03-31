@@ -1,0 +1,11 @@
+{
+  "Id": "tle1",
+  "Name": "channel_response_metadata",
+  "Properties": [
+    {
+      "Id": "tsnU",
+      "Name": "next_cursor",
+      "Type": "Compiled:String"
+    }
+  ]
+}

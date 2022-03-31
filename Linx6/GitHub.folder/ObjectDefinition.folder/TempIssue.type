@@ -1,0 +1,31 @@
+{
+  "Id": "hXA6",
+  "Name": "TempIssue",
+  "Properties": [
+    {
+      "Id": "eq7Z",
+      "Name": "body",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "3f1Y",
+      "Name": "created_at",
+      "Type": "Compiled:DateTime"
+    },
+    {
+      "Id": "a4mS",
+      "Name": "repoName",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "FYCE",
+      "Name": "repoUrl",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "lGkS",
+      "Name": "title",
+      "Type": "Compiled:String"
+    }
+  ]
+}

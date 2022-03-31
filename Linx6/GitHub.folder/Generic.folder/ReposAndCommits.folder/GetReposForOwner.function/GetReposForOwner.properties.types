@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "Rw4N",
+      "Properties": [
+        {
+          "Id": "9SkJ",
+          "Name": "token",
+          "Type": "Custom:2nzn",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

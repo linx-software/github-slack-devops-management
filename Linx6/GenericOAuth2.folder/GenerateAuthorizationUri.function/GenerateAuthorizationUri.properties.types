@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "TpdK",
+      "Properties": [
+        {
+          "Id": "Le9t",
+          "Name": "authorize_endpoint",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Q3jS",
+          "Name": "client_id",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "gseW",
+          "Name": "host",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "H3WZ",
+          "Name": "redirect_uri",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "RAeO",
+          "Name": "response_type",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "8chj",
+          "Name": "scope",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "vPrY",
+          "Name": "state",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "p6tl",
+      "Properties": [
+        {
+          "Id": "KjdH",
+          "Name": "token",
+          "Type": "Custom:2nzn",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

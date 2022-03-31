@@ -1,0 +1,86 @@
+{
+  "Id": "xL5Y",
+  "Name": "issue_milestone",
+  "Properties": [
+    {
+      "Id": "4cGe",
+      "Name": "url",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "GKWb",
+      "Name": "html_url",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "rzTp",
+      "Name": "labels_url",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "5Sgu",
+      "Name": "id",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "YFmc",
+      "Name": "node_id",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "z9XB",
+      "Name": "number",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "Pwph",
+      "Name": "state",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "uqnU",
+      "Name": "title",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "PRNJ",
+      "Name": "description",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "d2N2",
+      "Name": "creator",
+      "Type": "Custom:M2dI"
+    },
+    {
+      "Id": "o7pk",
+      "Name": "open_issues",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "9PdV",
+      "Name": "closed_issues",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "Asxy",
+      "Name": "created_at",
+      "Type": "Compiled:DateTime"
+    },
+    {
+      "Id": "98MQ",
+      "Name": "updated_at",
+      "Type": "Compiled:DateTime"
+    },
+    {
+      "Id": "XN7D",
+      "Name": "closed_at",
+      "Type": "Compiled:DateTime"
+    },
+    {
+      "Id": "MZ5o",
+      "Name": "due_on",
+      "Type": "Compiled:DateTime"
+    }
+  ]
+}

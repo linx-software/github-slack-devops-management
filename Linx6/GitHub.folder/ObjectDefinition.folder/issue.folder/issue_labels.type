@@ -1,0 +1,41 @@
+{
+  "Id": "lYkm",
+  "Name": "issue_labels",
+  "Properties": [
+    {
+      "Id": "EVpr",
+      "Name": "id",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "cME4",
+      "Name": "node_id",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "Sdnl",
+      "Name": "url",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "t1se",
+      "Name": "name",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "ZV9M",
+      "Name": "description",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "sJfW",
+      "Name": "color",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "kThT",
+      "Name": "default",
+      "Type": "Compiled:Boolean"
+    }
+  ]
+}

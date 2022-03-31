@@ -1,0 +1,21 @@
+{
+  "Id": "KvcB",
+  "Name": "commit_parents",
+  "Properties": [
+    {
+      "Id": "TiVs",
+      "Name": "sha",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "128h",
+      "Name": "url",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "ozlQ",
+      "Name": "html_url",
+      "Type": "Compiled:String"
+    }
+  ]
+}

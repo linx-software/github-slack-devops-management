@@ -1,0 +1,16 @@
+{
+  "Id": "Hjh9",
+  "Name": "text",
+  "Properties": [
+    {
+      "Id": "ytoK",
+      "Name": "type",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "iKu4",
+      "Name": "text",
+      "Type": "Compiled:String"
+    }
+  ]
+}

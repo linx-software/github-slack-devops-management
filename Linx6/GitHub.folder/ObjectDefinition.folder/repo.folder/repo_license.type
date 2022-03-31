@@ -1,0 +1,31 @@
+{
+  "Id": "vq5t",
+  "Name": "repo_license",
+  "Properties": [
+    {
+      "Id": "BKko",
+      "Name": "key",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "dTyH",
+      "Name": "name",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "8BY5",
+      "Name": "spdx_id",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "GvKA",
+      "Name": "url",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "HnXH",
+      "Name": "node_id",
+      "Type": "Compiled:String"
+    }
+  ]
+}

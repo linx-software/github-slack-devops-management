@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "WqqH",
+      "Properties": [
+        {
+          "Id": "BoUN",
+          "Name": "issue",
+          "Type": "Custom:hXA6",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

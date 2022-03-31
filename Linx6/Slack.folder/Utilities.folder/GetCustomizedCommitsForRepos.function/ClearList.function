@@ -1,0 +1,15 @@
+{
+  "Properties": [
+    {
+      "Id": "List",
+      "Type": "List:Custom:BC2Q",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "CommitListForRepo",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:BC2Q"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}
