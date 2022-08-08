@@ -70,17 +70,17 @@
     },
     {
       "Id": "Process",
-      "Type": "Compiled:Twenty57.Linx.Interfaces.StandardComponent.IProcessReference, Twenty57.Linx.Interfaces.StandardComponent, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null",
+      "Type": "Compiled:Linx.IProcessReference",
       "ValueUsage": "DesignTime",
       "Value": {
         "Id": "pP5u",
         "Name": "GitHub.Generic.Issues.GetIssuesForRepoAndOwner",
-        "Parameters": "Generated:87jm",
+        "Parameters": "Generated:vjwq",
         "Result": "Compiled:String",
         "IsValid": true,
         "QualifiedPath": "FL:GitHub→FL:Generic→FL:Issues→PC:GetIssuesForRepoAndOwner"
       },
-      "ValueType": "Twenty57.Linx.Domain.ProcessReference, Twenty57.Linx.Domain, Version=6.0.5.0, Culture=neutral, PublicKeyToken=null"
+      "ValueType": "Linx.ProcessReference"
     }
   ],
   "Result": "Compiled:String"

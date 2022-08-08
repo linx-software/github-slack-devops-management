@@ -15,7 +15,7 @@
     },
     {
       "Id": "Body format",
-      "Type": "Compiled:Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.BodyFormatType, Twenty57.Linx.Plugins.Rest, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.BodyFormatType, Twenty57.Linx.Plugins.Rest, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null",
       "ValueUsage": "DesignTime",
       "Value": "Text"
     },
@@ -33,7 +33,7 @@
     },
     {
       "Id": "Headers",
-      "Type": "Compiled:System.Collections.Generic.List`1[[Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.NameValuePair, Twenty57.Linx.Plugins.Rest, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Type": "Compiled:System.Collections.Generic.List`1[[Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.NameValuePair, Twenty57.Linx.Plugins.Rest, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "ValueUsage": "RuntimeRead",
       "Value": {
         "ParsedExpression": "[{\"Name\":\"Authorization\",\"Value\":{\"LinxExpression\":\"[PARSED]\"}},{\"Name\":\"User-Agent\",\"Value\":\"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 YaBrowser/16.3.0.7146 Yowser/2.5 Safari/537.36\"}]",
@@ -62,7 +62,7 @@
     },
     {
       "Id": "Method",
-      "Type": "Compiled:Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.HttpMethod, Twenty57.Linx.Plugins.Rest, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.HttpMethod, Twenty57.Linx.Plugins.Rest, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null",
       "ValueUsage": "DesignTime",
       "Value": "GET"
     },
@@ -88,7 +88,7 @@
     },
     {
       "Id": "Query string",
-      "Type": "Compiled:System.Collections.Generic.List`1[[Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.NameValuePair, Twenty57.Linx.Plugins.Rest, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Type": "Compiled:System.Collections.Generic.List`1[[Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.NameValuePair, Twenty57.Linx.Plugins.Rest, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "ValueUsage": "RuntimeRead",
       "Value": {
         "ParsedExpression": "[{\"Name\":\"since\",\"Value\":{\"LinxExpression\":\"[PARSED]\"}},{\"Name\":\"until\",\"Value\":{\"LinxExpression\":\"[PARSED]\"}},{\"Name\":\"per_page\",\"Value\":{\"LinxExpression\":\"[PARSED]\"}}]",
@@ -150,7 +150,7 @@
     },
     {
       "Id": "Type",
-      "Type": "Compiled:Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.AuthenticationType, Twenty57.Linx.Plugins.Rest, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.AuthenticationType, Twenty57.Linx.Plugins.Rest, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null",
       "ValueUsage": "DesignTime",
       "Value": "Anonymous"
     },

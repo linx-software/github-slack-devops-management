@@ -53,17 +53,17 @@
     },
     {
       "Id": "Process",
-      "Type": "Compiled:Twenty57.Linx.Interfaces.StandardComponent.IProcessReference, Twenty57.Linx.Interfaces.StandardComponent, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null",
+      "Type": "Compiled:Linx.IProcessReference",
       "ValueUsage": "DesignTime",
       "Value": {
         "Id": "XeMO",
         "Name": "Slack.Utilities.GetCustomizedCommitsForRepos",
-        "Parameters": "Generated:2mY6",
+        "Parameters": "Generated:fcaM",
         "Result": "List:Custom:BC2Q",
         "IsValid": true,
         "QualifiedPath": "FL:Slack→FL:Utilities→PC:GetCustomizedCommitsForRepos"
       },
-      "ValueType": "Twenty57.Linx.Domain.ProcessReference, Twenty57.Linx.Domain, Version=6.0.5.0, Culture=neutral, PublicKeyToken=null"
+      "ValueType": "Linx.ProcessReference"
     }
   ],
   "Result": "List:Custom:BC2Q"

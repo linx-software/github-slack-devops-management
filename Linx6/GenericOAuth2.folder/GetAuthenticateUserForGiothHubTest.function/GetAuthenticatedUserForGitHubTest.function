@@ -1,24 +1,10 @@
 {
   "Properties": [
     {
-      "Id": "16tJ",
-      "Type": "Compiled:String",
-      "ValueUsage": "RuntimeRead",
-      "Value": {
-        "Expression": "$.Parameters.channel",
-        "CompiledExpression": "={0}",
-        "Type": "Compiled:String"
-      },
-      "ValueType": "Linx.CSharpExpression"
-    },
-    {
       "Id": "ParameterNameMapping",
       "Type": "Compiled:System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "ValueUsage": "DesignTime",
-      "Value": {
-        "SDMD": "blocks",
-        "16tJ": "channel"
-      },
+      "Value": {},
       "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
@@ -26,25 +12,15 @@
       "Type": "Compiled:Linx.IProcessReference",
       "ValueUsage": "DesignTime",
       "Value": {
-        "Id": "bn5D",
-        "Name": "Slack.Generic.PostMessageAPI",
-        "Parameters": "Generated:30uF",
-        "Result": null,
+        "Id": "aHmt",
+        "Name": "GitHub.Utilities.GetAuthenticatedUserForGitHubTest",
+        "Parameters": null,
+        "Result": "Custom:RzD2",
         "IsValid": true,
-        "QualifiedPath": "FL:Slack→FL:Generic→PC:PostMessageAPI"
+        "QualifiedPath": "FL:GitHub→FL:Utilities→PC:GetAuthenticatedUserForGitHubTest"
       },
       "ValueType": "Linx.ProcessReference"
-    },
-    {
-      "Id": "SDMD",
-      "Type": "Compiled:String",
-      "ValueUsage": "RuntimeRead",
-      "Value": {
-        "Expression": "BuildBlocksForIssue",
-        "CompiledExpression": "={0}",
-        "Type": "Compiled:String"
-      },
-      "ValueType": "Linx.CSharpExpression"
     }
-  ]
+  ],
+  "Result": "Custom:RzD2"
 }

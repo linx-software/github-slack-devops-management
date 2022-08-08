@@ -11,23 +11,8 @@
       "Id": "Value",
       "Type": "List:Custom:BC2Q",
       "ValueUsage": "RuntimeRead",
-      "Value": {
-        "ParsedExpression": "[{\"commitList\":{\"LinxExpression\":\"[PARSED]\"}}]",
-        "ExpressionPlaceholders": [
-          {
-            "typePath": [
-              "[]",
-              "commitList"
-            ],
-            "expression": {
-              "Expression": "tempCommitList",
-              "CompiledExpression": "={0}",
-              "Type": "List:Custom:La1B"
-            }
-          }
-        ]
-      },
-      "ValueType": "Linx.JsonExpression"
+      "Value": null,
+      "ValueType": null
     }
   ],
   "Result": "List:Custom:BC2Q"

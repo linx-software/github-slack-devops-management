@@ -47,17 +47,17 @@
     },
     {
       "Id": "Process",
-      "Type": "Compiled:Twenty57.Linx.Interfaces.StandardComponent.IProcessReference, Twenty57.Linx.Interfaces.StandardComponent, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null",
+      "Type": "Compiled:Linx.IProcessReference",
       "ValueUsage": "DesignTime",
       "Value": {
         "Id": "gNk1",
         "Name": "Slack.Utilities.BuildBlocksForCommit",
-        "Parameters": "Generated:FDfz",
+        "Parameters": "Generated:9BaZ",
         "Result": "Compiled:String",
         "IsValid": true,
         "QualifiedPath": "FL:Slack→FL:Utilities→PC:BuildBlocksForCommit"
       },
-      "ValueType": "Twenty57.Linx.Domain.ProcessReference, Twenty57.Linx.Domain, Version=6.0.5.0, Culture=neutral, PublicKeyToken=null"
+      "ValueType": "Linx.ProcessReference"
     },
     {
       "Id": "qMxC",
