@@ -1,7 +1,7 @@
 {
   "Properties": [
     {
-      "Id": "Source",
+      "Id": "Value",
       "Type": "Compiled:String",
       "ValueUsage": "RuntimeRead",
       "Value": {
@@ -10,17 +10,10 @@
         "Type": "Compiled:String"
       },
       "ValueType": "Linx.CSharpExpression"
-    },
-    {
-      "Id": "Target",
-      "Type": "Compiled:String",
-      "ValueUsage": "RuntimeWrite",
-      "Value": {
-        "Expression": "$.Result",
-        "CompiledExpression": "={0}",
-        "Type": "Compiled:String"
-      },
-      "ValueType": "Linx.CSharpExpression"
     }
-  ]
+  ],
+  "RuntimeCharacteristics": {
+    "IsTerminating": true,
+    "ExecutionPathExecution": "ZeroOrMore"
+  }
 }

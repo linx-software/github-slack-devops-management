@@ -13,25 +13,25 @@
     },
     {
       "Id": "Destination encoding",
-      "Type": "Compiled:Twenty57.Linx.Plugins.File.Common.FileReadWrite.Encoding, Twenty57.Linx.Plugins.File, Version=1.0.4.0, Culture=neutral, PublicKeyToken=null",
+      "Type": "Compiled:Twenty57.Linx.Plugins.File.Common.FileReadWrite.Encoding, Twenty57.Linx.Plugins.File, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null",
       "ValueUsage": "DesignTime",
       "Value": "Default"
     },
     {
       "Id": "File does not exist",
-      "Type": "Compiled:Twenty57.Linx.Plugins.File.Common.FileReadWrite.DoesNotExistOptions, Twenty57.Linx.Plugins.File, Version=1.0.4.0, Culture=neutral, PublicKeyToken=null",
+      "Type": "Compiled:Twenty57.Linx.Plugins.File.Common.FileReadWrite.DoesNotExistOptions, Twenty57.Linx.Plugins.File, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null",
       "ValueUsage": "DesignTime",
       "Value": "CreateFile"
     },
     {
       "Id": "File exists",
-      "Type": "Compiled:Twenty57.Linx.Plugins.File.Common.FileReadWrite.ExistOptions, Twenty57.Linx.Plugins.File, Version=1.0.4.0, Culture=neutral, PublicKeyToken=null",
+      "Type": "Compiled:Twenty57.Linx.Plugins.File.Common.FileReadWrite.ExistOptions, Twenty57.Linx.Plugins.File, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null",
       "ValueUsage": "DesignTime",
       "Value": "OverwriteFile"
     },
     {
       "Id": "File path",
-      "Type": "Compiled:Twenty57.Linx.Plugins.File.Common.FileReadWrite.TextFileHandle, Twenty57.Linx.Plugins.File, Version=1.0.4.0, Culture=neutral, PublicKeyToken=null",
+      "Type": "Compiled:Twenty57.Linx.Plugins.File.Common.FileReadWrite.TextFileHandle, Twenty57.Linx.Plugins.File, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null",
       "ValueUsage": "RuntimeRead",
       "Value": {
         "Expression": "$.Settings.GitHubTokenLogPath",
@@ -41,5 +41,6 @@
       "ValueType": "Linx.CSharpExpression"
     }
   ],
-  "Result": "Compiled:String"
+  "Result": "Compiled:String",
+  "Version": "1"
 }

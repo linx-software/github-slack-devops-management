@@ -13,13 +13,14 @@
       "ValueUsage": "DesignTime",
       "Value": {
         "Id": "C3FK",
-        "Name": "GenericOAuth2.GetAuthenticateUserForGiothHubTest",
+        "Name": "GenericOAuth2.GetAuthenticateUserForGithHubTest",
         "Parameters": null,
-        "Result": null,
+        "Result": "Custom:RzD2",
         "IsValid": true,
-        "QualifiedPath": "FL:GenericOAuth2→PC:GetAuthenticateUserForGiothHubTest"
+        "QualifiedPath": "FL:GenericOAuth2→PC:GetAuthenticateUserForGithHubTest"
       },
       "ValueType": "Linx.ProcessReference"
     }
-  ]
+  ],
+  "Result": "Custom:RzD2"
 }

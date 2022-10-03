@@ -71,7 +71,7 @@
       "Type": "Compiled:Linx.ITypeReference",
       "ValueUsage": "DesignTime",
       "Value": "List:Custom:7KzL",
-      "ValueType": "Twenty57.Linx.SolutionDependencies.Types.ListTypeReference, Twenty57.Linx.SolutionDependencies.Types, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null"
+      "ValueType": "Twenty57.Linx.SolutionDependencies.Types.ListTypeReference, Twenty57.Linx.SolutionDependencies.Types, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null"
     },
     {
       "Id": "Port",
