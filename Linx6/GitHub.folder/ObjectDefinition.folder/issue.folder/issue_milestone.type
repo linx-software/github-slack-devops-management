@@ -1,84 +1,84 @@
 {
-  "Id": "xL5Y",
+  "Id": "4zm8",
   "Name": "issue_milestone",
   "Properties": [
     {
-      "Id": "4cGe",
+      "Id": "zw5s",
       "Name": "url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "GKWb",
+      "Id": "yH91",
       "Name": "html_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "rzTp",
+      "Id": "XMA3",
       "Name": "labels_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "5Sgu",
+      "Id": "KHHK",
       "Name": "id",
       "Type": "Compiled:Int64"
     },
     {
-      "Id": "YFmc",
+      "Id": "9Rwx",
       "Name": "node_id",
       "Type": "Compiled:String"
     },
     {
-      "Id": "z9XB",
+      "Id": "blue",
       "Name": "number",
       "Type": "Compiled:Int64"
     },
     {
-      "Id": "Pwph",
+      "Id": "JxPX",
       "Name": "state",
       "Type": "Compiled:String"
     },
     {
-      "Id": "uqnU",
+      "Id": "STQf",
       "Name": "title",
       "Type": "Compiled:String"
     },
     {
-      "Id": "PRNJ",
+      "Id": "vIma",
       "Name": "description",
       "Type": "Compiled:String"
     },
     {
-      "Id": "d2N2",
+      "Id": "QF1j",
       "Name": "creator",
-      "Type": "Custom:M2dI"
+      "Type": "Custom:Kp5A"
     },
     {
-      "Id": "o7pk",
+      "Id": "b6wV",
       "Name": "open_issues",
       "Type": "Compiled:Int64"
     },
     {
-      "Id": "9PdV",
+      "Id": "YloD",
       "Name": "closed_issues",
       "Type": "Compiled:Int64"
     },
     {
-      "Id": "Asxy",
+      "Id": "IS77",
       "Name": "created_at",
       "Type": "Compiled:DateTime"
     },
     {
-      "Id": "98MQ",
+      "Id": "X11I",
       "Name": "updated_at",
       "Type": "Compiled:DateTime"
     },
     {
-      "Id": "XN7D",
+      "Id": "hsZZ",
       "Name": "closed_at",
       "Type": "Compiled:DateTime"
     },
     {
-      "Id": "MZ5o",
+      "Id": "1RtX",
       "Name": "due_on",
       "Type": "Compiled:DateTime"
     }

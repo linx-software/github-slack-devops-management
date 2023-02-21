@@ -1,94 +1,94 @@
 {
-  "Id": "orGM",
+  "Id": "rOHh",
   "Name": "issue_assignees",
   "Properties": [
     {
-      "Id": "1wdL",
+      "Id": "Ll2I",
       "Name": "login",
       "Type": "Compiled:String"
     },
     {
-      "Id": "bNe5",
+      "Id": "39Gm",
       "Name": "id",
       "Type": "Compiled:Int64"
     },
     {
-      "Id": "lzeH",
+      "Id": "3LUt",
       "Name": "node_id",
       "Type": "Compiled:String"
     },
     {
-      "Id": "YkCU",
+      "Id": "HTXs",
       "Name": "avatar_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "LXl5",
+      "Id": "cerm",
       "Name": "gravatar_id",
       "Type": "Compiled:String"
     },
     {
-      "Id": "kNBb",
+      "Id": "XRIK",
       "Name": "url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "AMYj",
+      "Id": "n07u",
       "Name": "html_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "nHpH",
+      "Id": "Osk9",
       "Name": "followers_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "vjLK",
+      "Id": "qXOG",
       "Name": "following_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "hues",
+      "Id": "BjJr",
       "Name": "gists_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "S2jk",
+      "Id": "5bgP",
       "Name": "starred_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "SBB2",
+      "Id": "mFdY",
       "Name": "subscriptions_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "WcG6",
+      "Id": "1oIF",
       "Name": "organizations_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "biuf",
+      "Id": "dYJt",
       "Name": "repos_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "GeXB",
+      "Id": "2zj1",
       "Name": "events_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "B5U8",
+      "Id": "wdvF",
       "Name": "received_events_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "TDz7",
+      "Id": "wH54",
       "Name": "type",
       "Type": "Compiled:String"
     },
     {
-      "Id": "PSSf",
+      "Id": "NhxX",
       "Name": "site_admin",
       "Type": "Compiled:Boolean"
     }

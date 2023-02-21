@@ -1,29 +1,7 @@
 {
   "Properties": [
     {
-      "Id": "bM0h",
-      "Type": "Compiled:DateTime",
-      "ValueUsage": "RuntimeRead",
-      "Value": {
-        "Expression": "$.Parameters.since",
-        "CompiledExpression": "={0}",
-        "Type": "Compiled:DateTime"
-      },
-      "ValueType": "Linx.CSharpExpression"
-    },
-    {
-      "Id": "nBzI",
-      "Type": "Compiled:String",
-      "ValueUsage": "RuntimeRead",
-      "Value": {
-        "Expression": "$.Parameters.channel",
-        "CompiledExpression": "={0}",
-        "Type": "Compiled:String"
-      },
-      "ValueType": "Linx.CSharpExpression"
-    },
-    {
-      "Id": "OtTR",
+      "Id": "0MJj",
       "Type": "Compiled:Int64",
       "ValueUsage": "RuntimeRead",
       "Value": {
@@ -34,14 +12,25 @@
       "ValueType": "Linx.CSharpExpression"
     },
     {
+      "Id": "Ozkz",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "GetChannelForName.Channel.name",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
       "Id": "ParameterNameMapping",
       "Type": "Compiled:System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "ValueUsage": "DesignTime",
       "Value": {
-        "nBzI": "channel",
-        "OtTR": "per_page",
-        "bM0h": "since",
-        "WU5n": "state"
+        "YpkC": "since",
+        "0MJj": "per_page",
+        "Ozkz": "channel",
+        "yWbX": "state"
       },
       "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
@@ -50,17 +39,28 @@
       "Type": "Compiled:Linx.IProcessReference",
       "ValueUsage": "DesignTime",
       "Value": {
-        "Id": "bers",
-        "Name": "Slack.Utilities.PostIssuesToSlack",
-        "Parameters": "Generated:TCiT",
+        "Id": "DBsl",
+        "Name": "Slack.Slack.Utilities.PostIssuesToSlack",
+        "Parameters": "Generated:ko9K",
         "Result": null,
         "IsValid": true,
-        "QualifiedPath": "FL:Slack→FL:Utilities→PC:PostIssuesToSlack"
+        "QualifiedPath": "FL:Slack→FL:Slack→FL:Utilities→PC:PostIssuesToSlack"
       },
       "ValueType": "Linx.ProcessReference"
     },
     {
-      "Id": "WU5n",
+      "Id": "YpkC",
+      "Type": "Compiled:DateTime",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.since",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:DateTime"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "yWbX",
       "Type": "Compiled:String",
       "ValueUsage": "RuntimeRead",
       "Value": {

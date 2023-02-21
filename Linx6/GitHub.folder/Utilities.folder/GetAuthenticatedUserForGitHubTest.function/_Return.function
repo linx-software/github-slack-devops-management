@@ -2,12 +2,12 @@
   "Properties": [
     {
       "Id": "Value",
-      "Type": "Custom:RzD2",
+      "Type": "Custom:AduF",
       "ValueUsage": "RuntimeRead",
       "Value": {
-        "Expression": "CallRESTEndpoint.ResponseBody",
+        "Expression": "_Result",
         "CompiledExpression": "={0}",
-        "Type": "Custom:RzD2"
+        "Type": "Custom:AduF"
       },
       "ValueType": "Linx.CSharpExpression"
     }

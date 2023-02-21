@@ -7,7 +7,7 @@
       "Value": {
         "Expression": "$.Parameters.token",
         "CompiledExpression": "={0}",
-        "Type": "Custom:2nzn"
+        "Type": "Custom:nC1H"
       },
       "ValueType": "Linx.CSharpExpression"
     }

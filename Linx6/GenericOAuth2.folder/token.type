@@ -1,20 +1,35 @@
 {
-  "Id": "2nzn",
+  "Id": "nC1H",
   "Name": "token",
   "Properties": [
     {
-      "Id": "25iM",
+      "Id": "ntWo",
       "Name": "access_token",
       "Type": "Compiled:String"
     },
     {
-      "Id": "tZui",
-      "Name": "scope",
+      "Id": "t2g7",
+      "Name": "expires_in",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "FmJJ",
+      "Name": "refresh_token",
       "Type": "Compiled:String"
     },
     {
-      "Id": "ySGo",
+      "Id": "C2TO",
+      "Name": "refresh_token_expires_in",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "kZGU",
       "Name": "token_type",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "nujE",
+      "Name": "scope",
       "Type": "Compiled:String"
     }
   ]

@@ -1,0 +1,19 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Custom:e59w",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "_Result",
+        "CompiledExpression": "={0}",
+        "Type": "Custom:e59w"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
+  "RuntimeCharacteristics": {
+    "IsTerminating": true,
+    "ExecutionPathExecution": "ZeroOrMore"
+  }
+}

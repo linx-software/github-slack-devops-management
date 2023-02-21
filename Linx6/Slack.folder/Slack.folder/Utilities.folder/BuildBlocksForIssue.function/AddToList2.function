@@ -1,0 +1,26 @@
+{
+  "Properties": [
+    {
+      "Id": "List",
+      "Type": "List:Custom:0uQY",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "block.blocks",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:0uQY"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Value",
+      "Type": "Custom:0uQY",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "Headerfields",
+        "CompiledExpression": "={0}",
+        "Type": "Custom:0uQY"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

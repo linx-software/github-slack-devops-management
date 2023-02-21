@@ -1,26 +1,26 @@
 {
-  "Id": "BC2Q",
+  "Id": "xNnO",
   "Name": "CommitList",
   "Properties": [
     {
-      "Id": "eXGj",
-      "Name": "commitList",
-      "Type": "List:Custom:La1B"
+      "Id": "voGX",
+      "Name": "CommitList",
+      "Type": "List:Custom:ZucF"
     },
     {
-      "Id": "RozC",
-      "Name": "created_at",
-      "Type": "Compiled:DateTime"
-    },
-    {
-      "Id": "SQ7l",
+      "Id": "aqW3",
       "Name": "repo",
       "Type": "Compiled:String"
     },
     {
-      "Id": "oz64",
+      "Id": "hC0d",
       "Name": "repoUrl",
       "Type": "Compiled:String"
+    },
+    {
+      "Id": "AfNc",
+      "Name": "created_at",
+      "Type": "Compiled:DateTime"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "Id": "B1zu",
+  "Name": "GetReposForOwner_Result",
+  "Properties": [
+    {
+      "Id": "5szF",
+      "Name": "repoList",
+      "Type": "List:Custom:7nAl"
+    }
+  ]
+}

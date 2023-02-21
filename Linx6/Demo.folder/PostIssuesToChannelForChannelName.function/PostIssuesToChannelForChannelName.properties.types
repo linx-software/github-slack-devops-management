@@ -2,28 +2,28 @@
   {
     "Type": "Generated",
     "Value": {
-      "Id": "sD0l",
+      "Id": "ezNW",
       "Properties": [
         {
-          "Id": "BTli",
+          "Id": "NbSs",
           "Name": "channel",
           "Type": "Compiled:String",
           "Access": "ReadWrite"
         },
         {
-          "Id": "fJjg",
+          "Id": "Z4D7",
           "Name": "per_page",
           "Type": "Compiled:Int64",
           "Access": "ReadWrite"
         },
         {
-          "Id": "ibu8",
+          "Id": "Gpd7",
           "Name": "since",
           "Type": "Compiled:DateTime",
           "Access": "ReadWrite"
         },
         {
-          "Id": "mowD",
+          "Id": "udpN",
           "Name": "state",
           "Type": "Compiled:String",
           "Access": "ReadWrite"

@@ -1,0 +1,11 @@
+{
+  "Id": "nM7y",
+  "Name": "ExchangeCodeForToken_Result",
+  "Properties": [
+    {
+      "Id": "QW7l",
+      "Name": "token",
+      "Type": "Custom:nC1H"
+    }
+  ]
+}

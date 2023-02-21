@@ -1,0 +1,21 @@
+{
+  "Id": "j241",
+  "Name": "channelType",
+  "Properties": [
+    {
+      "Id": "6Gjr",
+      "Name": "value",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "95mz",
+      "Name": "creator",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "nwSn",
+      "Name": "last_set",
+      "Type": "Compiled:Int64"
+    }
+  ]
+}

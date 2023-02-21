@@ -2,12 +2,12 @@
   "Properties": [
     {
       "Id": "Value",
-      "Type": "Custom:2nzn",
+      "Type": "Custom:pVGb",
       "ValueUsage": "RuntimeRead",
       "Value": {
-        "Expression": "TextFileRead",
+        "Expression": "_Result",
         "CompiledExpression": "={0}",
-        "Type": "Compiled:String"
+        "Type": "Custom:pVGb"
       },
       "ValueType": "Linx.CSharpExpression"
     }

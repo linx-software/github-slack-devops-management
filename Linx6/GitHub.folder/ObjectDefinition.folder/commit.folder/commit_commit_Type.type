@@ -1,19 +1,19 @@
 {
-  "Id": "K5cq",
+  "Id": "71sv",
   "Name": "commit_commit_Type",
   "Properties": [
     {
-      "Id": "NffY",
+      "Id": "fq1i",
       "Name": "name",
       "Type": "Compiled:String"
     },
     {
-      "Id": "u64c",
+      "Id": "iHWJ",
       "Name": "email",
       "Type": "Compiled:String"
     },
     {
-      "Id": "nsNQ",
+      "Id": "dVm2",
       "Name": "date",
       "Type": "Compiled:DateTime"
     }

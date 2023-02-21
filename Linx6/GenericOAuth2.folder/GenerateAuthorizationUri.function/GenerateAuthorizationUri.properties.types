@@ -2,47 +2,47 @@
   {
     "Type": "Generated",
     "Value": {
-      "Id": "TpdK",
+      "Id": "KlzF",
       "Properties": [
         {
-          "Id": "Le9t",
-          "Name": "authorize_endpoint",
-          "Type": "Compiled:String",
-          "Access": "ReadWrite"
-        },
-        {
-          "Id": "Q3jS",
-          "Name": "client_id",
-          "Type": "Compiled:String",
-          "Access": "ReadWrite"
-        },
-        {
-          "Id": "gseW",
+          "Id": "RrkI",
           "Name": "host",
           "Type": "Compiled:String",
           "Access": "ReadWrite"
         },
         {
-          "Id": "H3WZ",
-          "Name": "redirect_uri",
+          "Id": "aFMw",
+          "Name": "authorize_endpoint",
           "Type": "Compiled:String",
           "Access": "ReadWrite"
         },
         {
-          "Id": "RAeO",
+          "Id": "zLfx",
           "Name": "response_type",
           "Type": "Compiled:String",
           "Access": "ReadWrite"
         },
         {
-          "Id": "8chj",
+          "Id": "4QJ3",
+          "Name": "client_id",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "31vE",
           "Name": "scope",
           "Type": "Compiled:String",
           "Access": "ReadWrite"
         },
         {
-          "Id": "vPrY",
+          "Id": "xO6U",
           "Name": "state",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "O2r8",
+          "Name": "redirect_uri",
           "Type": "Compiled:String",
           "Access": "ReadWrite"
         }

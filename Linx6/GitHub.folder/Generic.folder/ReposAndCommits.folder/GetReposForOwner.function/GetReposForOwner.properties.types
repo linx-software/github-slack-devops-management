@@ -2,12 +2,12 @@
   {
     "Type": "Generated",
     "Value": {
-      "Id": "Rw4N",
+      "Id": "9EUF",
       "Properties": [
         {
-          "Id": "9SkJ",
+          "Id": "kFgt",
           "Name": "token",
-          "Type": "Custom:2nzn",
+          "Type": "Custom:nC1H",
           "Access": "ReadWrite"
         }
       ]

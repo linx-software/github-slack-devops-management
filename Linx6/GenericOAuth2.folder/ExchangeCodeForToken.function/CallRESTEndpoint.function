@@ -4,11 +4,11 @@
       "Id": "Allow untrusted certificates",
       "Type": "Compiled:Boolean",
       "ValueUsage": "RuntimeRead",
-      "Value": false
+      "Value": true
     },
     {
       "Id": "Body format",
-      "Type": "Compiled:Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.BodyFormatType, Twenty57.Linx.Plugins.Rest, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.BodyFormatType, Twenty57.Linx.Plugins.Rest, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null",
       "ValueUsage": "DesignTime",
       "Value": "URLEncoded"
     },
@@ -26,7 +26,7 @@
     },
     {
       "Id": "Headers",
-      "Type": "Compiled:System.Collections.Generic.List`1[[Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.NameValuePair, Twenty57.Linx.Plugins.Rest, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Type": "Compiled:System.Collections.Generic.List`1[[Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.NameValuePair, Twenty57.Linx.Plugins.Rest, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "ValueUsage": "RuntimeRead",
       "Value": "[{\"Name\":\"Accept\",\"Value\":\"application/json\"}]",
       "ValueType": "String"
@@ -40,7 +40,7 @@
     },
     {
       "Id": "Method",
-      "Type": "Compiled:Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.HttpMethod, Twenty57.Linx.Plugins.Rest, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.HttpMethod, Twenty57.Linx.Plugins.Rest, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null",
       "ValueUsage": "DesignTime",
       "Value": "POST"
     },
@@ -48,7 +48,7 @@
       "Id": "Output type",
       "Type": "Compiled:Linx.ITypeReference",
       "ValueUsage": "DesignTime",
-      "Value": "Custom:2nzn",
+      "Value": "Custom:nC1H",
       "ValueType": "Linx.ValidCustomTypeReference"
     },
     {
@@ -66,7 +66,7 @@
     },
     {
       "Id": "Query string",
-      "Type": "Compiled:System.Collections.Generic.List`1[[Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.NameValuePair, Twenty57.Linx.Plugins.Rest, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Type": "Compiled:System.Collections.Generic.List`1[[Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.NameValuePair, Twenty57.Linx.Plugins.Rest, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "ValueUsage": "RuntimeRead",
       "Value": null
     },
@@ -90,7 +90,7 @@
     },
     {
       "Id": "Type",
-      "Type": "Compiled:Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.AuthenticationType, Twenty57.Linx.Plugins.Rest, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.AuthenticationType, Twenty57.Linx.Plugins.Rest, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null",
       "ValueUsage": "DesignTime",
       "Value": "Anonymous"
     },
@@ -107,7 +107,7 @@
     },
     {
       "Id": "URL encoded body",
-      "Type": "Compiled:System.Collections.Generic.List`1[[Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.NameValuePair, Twenty57.Linx.Plugins.Rest, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Type": "Compiled:System.Collections.Generic.List`1[[Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.NameValuePair, Twenty57.Linx.Plugins.Rest, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "ValueUsage": "RuntimeRead",
       "Value": {
         "ParsedExpression": "[{\"Name\":\"client_id\",\"Value\":{\"LinxExpression\":\"[PARSED]\"}},{\"Name\":\"client_secret\",\"Value\":{\"LinxExpression\":\"[PARSED]\"}},{\"Name\":\"code\",\"Value\":{\"LinxExpression\":\"[PARSED]\"}},{\"Name\":\"redirect_uri\",\"Value\":{\"LinxExpression\":\"[PARSED]\"}},{\"Name\":\"state\",\"Value\":{\"LinxExpression\":\"[PARSED]\"}}]",
@@ -172,5 +172,10 @@
       "ValueType": "Linx.JsonExpression"
     }
   ],
-  "Result": "Generated:zrUl"
+  "Result": "Generated:Zgj1",
+  "RuntimeCharacteristics": {
+    "IsTerminating": false,
+    "ExecutionPathExecution": "OneOrMore"
+  },
+  "Version": "1"
 }

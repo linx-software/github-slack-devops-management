@@ -1,0 +1,136 @@
+{
+  "Id": "eQKf",
+  "Name": "channel",
+  "Properties": [
+    {
+      "Id": "keh6",
+      "Name": "id",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "thI2",
+      "Name": "name",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "EE0E",
+      "Name": "is_channel",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "pfGL",
+      "Name": "is_group",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "5eyU",
+      "Name": "is_im",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "GnbO",
+      "Name": "created",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "8d4l",
+      "Name": "is_archived",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "8RhT",
+      "Name": "is_general",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "9RTT",
+      "Name": "unlinked",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "cszh",
+      "Name": "name_normalized",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "7S91",
+      "Name": "is_shared",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "nqJj",
+      "Name": "parent_conversation",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "vgNk",
+      "Name": "creator",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "DLsa",
+      "Name": "is_ext_shared",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "UOZI",
+      "Name": "is_org_shared",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "5wXe",
+      "Name": "shared_team_ids",
+      "Type": "List:Compiled:String"
+    },
+    {
+      "Id": "qOfM",
+      "Name": "pending_shared",
+      "Type": "List:Compiled:String"
+    },
+    {
+      "Id": "J8EO",
+      "Name": "pending_connected_team_ids",
+      "Type": "List:Compiled:String"
+    },
+    {
+      "Id": "0x2A",
+      "Name": "is_pending_ext_shared",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "V7Ai",
+      "Name": "is_member",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "HvLo",
+      "Name": "is_private",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "9aGr",
+      "Name": "is_mpim",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "nTxg",
+      "Name": "topic",
+      "Type": "Custom:j241"
+    },
+    {
+      "Id": "PRzk",
+      "Name": "purpose",
+      "Type": "Custom:j241"
+    },
+    {
+      "Id": "dvNG",
+      "Name": "previous_names",
+      "Type": "List:Compiled:String"
+    },
+    {
+      "Id": "BQgr",
+      "Name": "num_members",
+      "Type": "Compiled:Int64"
+    }
+  ]
+}

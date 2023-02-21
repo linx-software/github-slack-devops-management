@@ -1,0 +1,73 @@
+{
+  "Properties": [
+    {
+      "Id": "Type",
+      "Type": "Compiled:Linx.ITypeReference",
+      "ValueUsage": "DesignTime",
+      "Value": "Custom:CaZh",
+      "ValueType": "Linx.ValidCustomTypeReference"
+    },
+    {
+      "Id": "Value",
+      "Type": "Custom:CaZh",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"repoName\":{\"LinxExpression\":\"[PARSED]\"}, \"repoUrl\":{\"LinxExpression\":\"[PARSED]\"}, \"created_at\":{\"LinxExpression\":\"[PARSED]\"}, \"title\":{\"LinxExpression\":\"[PARSED]\"}, \"body\":{\"LinxExpression\":\"[PARSED]\"}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "repoName"
+            ],
+            "expression": {
+              "Expression": "ForEachRepo.Loop.name",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "repoUrl"
+            ],
+            "expression": {
+              "Expression": "ForEachRepo.Loop.url",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "created_at"
+            ],
+            "expression": {
+              "Expression": "ForEach.Loop.created_at",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:DateTime"
+            }
+          },
+          {
+            "typePath": [
+              "title"
+            ],
+            "expression": {
+              "Expression": "ForEach.Loop.title",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "body"
+            ],
+            "expression": {
+              "Expression": "ForEach.Loop.body",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    }
+  ],
+  "Result": "Custom:CaZh"
+}

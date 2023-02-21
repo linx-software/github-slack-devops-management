@@ -1,0 +1,87 @@
+{
+  "Properties": [
+    {
+      "Id": "3nim",
+      "Type": "Custom:nC1H",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "RetrieveToken.token",
+        "CompiledExpression": "={0}",
+        "Type": "Custom:nC1H"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "8GHr",
+      "Type": "Compiled:DateTime",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.until",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:DateTime"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "cGTa",
+      "Type": "Compiled:Int64",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.per_page",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:Int64"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "MWmk",
+      "Type": "Compiled:DateTime",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.since",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:DateTime"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "ParameterNameMapping",
+      "Type": "Compiled:System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "MWmk": "since",
+        "8GHr": "until",
+        "cGTa": "per_page",
+        "vV5T": "repo",
+        "3nim": "token"
+      },
+      "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "Id": "Process",
+      "Type": "Compiled:Linx.IProcessReference",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "Id": "VXjI",
+        "Name": "GitHub.Generic.ReposAndCommits.GetCommits",
+        "Parameters": "Generated:pLBB",
+        "Result": "Custom:K3l4",
+        "IsValid": true,
+        "QualifiedPath": "FL:GitHub→FL:Generic→FL:ReposAndCommits→PC:GetCommits"
+      },
+      "ValueType": "Linx.ProcessReference"
+    },
+    {
+      "Id": "vV5T",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "ForEach.Loop.name",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
+  "Result": "Custom:K3l4"
+}

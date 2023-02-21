@@ -1,0 +1,21 @@
+{
+  "Id": "wXnt",
+  "Name": "text_emoji",
+  "Properties": [
+    {
+      "Id": "FYMb",
+      "Name": "type",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "rpB7",
+      "Name": "text",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "Bgdu",
+      "Name": "emoji",
+      "Type": "Compiled:Boolean"
+    }
+  ]
+}

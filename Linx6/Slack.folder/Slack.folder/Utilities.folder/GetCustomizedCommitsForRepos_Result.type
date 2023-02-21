@@ -1,0 +1,11 @@
+{
+  "Id": "xQTP",
+  "Name": "GetCustomizedCommitsForRepos_Result",
+  "Properties": [
+    {
+      "Id": "GIw2",
+      "Name": "commitList",
+      "Type": "List:Custom:xNnO"
+    }
+  ]
+}

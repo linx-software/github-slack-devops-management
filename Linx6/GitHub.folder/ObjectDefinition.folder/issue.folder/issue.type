@@ -1,134 +1,134 @@
 {
-  "Id": "dZQ4",
+  "Id": "RgrX",
   "Name": "issue",
   "Properties": [
     {
-      "Id": "02fi",
+      "Id": "uKHV",
       "Name": "id",
       "Type": "Compiled:Int64"
     },
     {
-      "Id": "IrQ1",
+      "Id": "drPZ",
       "Name": "node_id",
       "Type": "Compiled:String"
     },
     {
-      "Id": "Le3A",
+      "Id": "4uyt",
       "Name": "url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "xXjL",
+      "Id": "YPEX",
       "Name": "repository_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "2Zuw",
+      "Id": "uHit",
       "Name": "labels_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "uo8n",
+      "Id": "uDFe",
       "Name": "comments_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "nuqp",
+      "Id": "hyby",
       "Name": "events_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "I7js",
+      "Id": "yTRi",
       "Name": "html_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "IiN9",
+      "Id": "fMHx",
       "Name": "number",
       "Type": "Compiled:Int64"
     },
     {
-      "Id": "Vycj",
+      "Id": "JXVW",
       "Name": "state",
       "Type": "Compiled:String"
     },
     {
-      "Id": "Kh5F",
+      "Id": "2x6U",
       "Name": "title",
       "Type": "Compiled:String"
     },
     {
-      "Id": "sbzx",
+      "Id": "vhPp",
       "Name": "body",
       "Type": "Compiled:String"
     },
     {
-      "Id": "64fY",
+      "Id": "D8jg",
       "Name": "user",
-      "Type": "Custom:M2dI"
+      "Type": "Custom:Kp5A"
     },
     {
-      "Id": "6MCt",
+      "Id": "yrID",
       "Name": "labels",
-      "Type": "List:Custom:lYkm"
+      "Type": "List:Custom:oLJt"
     },
     {
-      "Id": "kk1J",
+      "Id": "8qCw",
       "Name": "assignee",
-      "Type": "Custom:M2dI"
+      "Type": "Custom:Kp5A"
     },
     {
-      "Id": "u5Yd",
+      "Id": "gZlb",
       "Name": "assignees",
-      "Type": "List:Custom:orGM"
+      "Type": "List:Custom:rOHh"
     },
     {
-      "Id": "xOlb",
+      "Id": "OJsE",
       "Name": "milestone",
-      "Type": "Custom:xL5Y"
+      "Type": "Custom:4zm8"
     },
     {
-      "Id": "E6XX",
+      "Id": "El8Q",
       "Name": "locked",
       "Type": "Compiled:Boolean"
     },
     {
-      "Id": "ilMB",
+      "Id": "wGhl",
       "Name": "active_lock_reason",
       "Type": "Compiled:String"
     },
     {
-      "Id": "IELH",
+      "Id": "LWPZ",
       "Name": "comments",
       "Type": "Compiled:Int64"
     },
     {
-      "Id": "tV6p",
+      "Id": "qJfd",
       "Name": "pull_request",
-      "Type": "Custom:7cJs"
+      "Type": "Custom:qerj"
     },
     {
-      "Id": "3s0F",
+      "Id": "kY6n",
       "Name": "closed_at",
       "Type": "Compiled:String"
     },
     {
-      "Id": "lgMh",
+      "Id": "xbk5",
       "Name": "created_at",
       "Type": "Compiled:DateTime"
     },
     {
-      "Id": "i57i",
+      "Id": "lXxd",
       "Name": "updated_at",
       "Type": "Compiled:DateTime"
     },
     {
-      "Id": "hcLK",
+      "Id": "p4kI",
       "Name": "closed_by",
-      "Type": "Custom:M2dI"
+      "Type": "Custom:Kp5A"
     },
     {
-      "Id": "Uyfj",
+      "Id": "sWUT",
       "Name": "author_association",
       "Type": "Compiled:String"
     }

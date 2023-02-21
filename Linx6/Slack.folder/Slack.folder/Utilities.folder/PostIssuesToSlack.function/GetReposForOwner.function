@@ -1,0 +1,39 @@
+{
+  "Properties": [
+    {
+      "Id": "kFgt",
+      "Type": "Custom:nC1H",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "RetrieveToken.token",
+        "CompiledExpression": "={0}",
+        "Type": "Custom:nC1H"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "ParameterNameMapping",
+      "Type": "Compiled:System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "kFgt": "token"
+      },
+      "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "Id": "Process",
+      "Type": "Compiled:Linx.IProcessReference",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "Id": "Uobk",
+        "Name": "GitHub.Generic.ReposAndCommits.GetReposForOwner",
+        "Parameters": "Generated:9EUF",
+        "Result": "Custom:B1zu",
+        "IsValid": true,
+        "QualifiedPath": "FL:GitHub→FL:Generic→FL:ReposAndCommits→PC:GetReposForOwner"
+      },
+      "ValueType": "Linx.ProcessReference"
+    }
+  ],
+  "Result": "Custom:B1zu"
+}

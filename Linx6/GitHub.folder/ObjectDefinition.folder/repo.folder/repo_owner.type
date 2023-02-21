@@ -1,94 +1,94 @@
 {
-  "Id": "6E5F",
+  "Id": "ONPP",
   "Name": "repo_owner",
   "Properties": [
     {
-      "Id": "yCTt",
+      "Id": "SRdI",
       "Name": "login",
       "Type": "Compiled:String"
     },
     {
-      "Id": "shB7",
+      "Id": "jjef",
       "Name": "id",
       "Type": "Compiled:Int64"
     },
     {
-      "Id": "ZT8q",
+      "Id": "HRz4",
       "Name": "node_id",
       "Type": "Compiled:String"
     },
     {
-      "Id": "9N9y",
+      "Id": "Riru",
       "Name": "avatar_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "dmuv",
+      "Id": "y3Am",
       "Name": "gravatar_id",
       "Type": "Compiled:String"
     },
     {
-      "Id": "SZdH",
+      "Id": "i8F5",
       "Name": "url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "cY9n",
+      "Id": "kng9",
       "Name": "html_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "eM9R",
+      "Id": "wqU6",
       "Name": "followers_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "7VNi",
+      "Id": "BgOj",
       "Name": "following_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "785V",
+      "Id": "xutQ",
       "Name": "gists_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "pDNB",
+      "Id": "iHCi",
       "Name": "starred_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "rhKz",
+      "Id": "OsEX",
       "Name": "subscriptions_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "2Yi1",
+      "Id": "8lqJ",
       "Name": "organizations_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "tAjG",
+      "Id": "GGty",
       "Name": "repos_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "Ph87",
+      "Id": "fX7d",
       "Name": "events_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "VGRX",
+      "Id": "PmCS",
       "Name": "received_events_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "OTBD",
+      "Id": "lodX",
       "Name": "type",
       "Type": "Compiled:String"
     },
     {
-      "Id": "fjj7",
+      "Id": "MGar",
       "Name": "site_admin",
       "Type": "Compiled:Boolean"
     }

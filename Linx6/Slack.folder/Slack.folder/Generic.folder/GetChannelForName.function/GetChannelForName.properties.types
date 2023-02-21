@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "ru8z",
+      "Properties": [
+        {
+          "Id": "LXcI",
+          "Name": "ChannelNameNormalized",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

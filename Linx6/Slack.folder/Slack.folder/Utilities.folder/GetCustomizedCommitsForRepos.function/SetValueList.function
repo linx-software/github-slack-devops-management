@@ -1,0 +1,26 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "List:Custom:ZucF",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "GetCommits.responseBody",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "List:Custom:ZucF",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "tempCommitList",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:ZucF"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

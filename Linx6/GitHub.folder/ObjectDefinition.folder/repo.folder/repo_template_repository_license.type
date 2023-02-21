@@ -1,0 +1,36 @@
+{
+  "Id": "Sl1v",
+  "Name": "repo_template_repository_license",
+  "Properties": [
+    {
+      "Id": "4NCq",
+      "Name": "key",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "0Hhm",
+      "Name": "name",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "4DTo",
+      "Name": "url",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "OVph",
+      "Name": "spdx_id",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "t44A",
+      "Name": "node_id",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "8CDj",
+      "Name": "html_url",
+      "Type": "Compiled:String"
+    }
+  ]
+}

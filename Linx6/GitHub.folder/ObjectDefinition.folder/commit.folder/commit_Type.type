@@ -1,96 +1,26 @@
 {
-  "Id": "ywl9",
+  "Id": "HsE5",
   "Name": "commit_Type",
   "Properties": [
     {
-      "Id": "BWo0",
-      "Name": "login",
-      "Type": "Compiled:String"
-    },
-    {
-      "Id": "nYCk",
+      "Id": "lQuQ",
       "Name": "id",
       "Type": "Compiled:Int64"
     },
     {
-      "Id": "uEAB",
-      "Name": "node_id",
-      "Type": "Compiled:String"
-    },
-    {
-      "Id": "zAfP",
+      "Id": "DTkn",
       "Name": "avatar_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "k9gN",
-      "Name": "gravatar_id",
-      "Type": "Compiled:String"
-    },
-    {
-      "Id": "Dw1t",
+      "Id": "z640",
       "Name": "url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "pLno",
-      "Name": "html_url",
-      "Type": "Compiled:String"
-    },
-    {
-      "Id": "ALyz",
-      "Name": "followers_url",
-      "Type": "Compiled:String"
-    },
-    {
-      "Id": "DTlx",
-      "Name": "following_url",
-      "Type": "Compiled:String"
-    },
-    {
-      "Id": "JLGq",
-      "Name": "gists_url",
-      "Type": "Compiled:String"
-    },
-    {
-      "Id": "pcJH",
-      "Name": "starred_url",
-      "Type": "Compiled:String"
-    },
-    {
-      "Id": "FdLB",
-      "Name": "subscriptions_url",
-      "Type": "Compiled:String"
-    },
-    {
-      "Id": "JrMt",
-      "Name": "organizations_url",
-      "Type": "Compiled:String"
-    },
-    {
-      "Id": "xtyY",
+      "Id": "3u9a",
       "Name": "repos_url",
       "Type": "Compiled:String"
-    },
-    {
-      "Id": "LLRv",
-      "Name": "events_url",
-      "Type": "Compiled:String"
-    },
-    {
-      "Id": "ovh0",
-      "Name": "received_events_url",
-      "Type": "Compiled:String"
-    },
-    {
-      "Id": "bOXO",
-      "Name": "type",
-      "Type": "Compiled:String"
-    },
-    {
-      "Id": "eBoK",
-      "Name": "site_admin",
-      "Type": "Compiled:Boolean"
     }
   ]
 }

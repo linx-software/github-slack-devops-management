@@ -1,18 +1,22 @@
 {
   "Properties": [
     {
-      "Id": "KjdH",
-      "Type": "Custom:2nzn",
+      "Id": "lfqp",
+      "Type": "Custom:nC1H",
       "ValueUsage": "RuntimeRead",
-      "Value": null,
-      "ValueType": null
+      "Value": {
+        "Expression": "ExchangeCodeForToken.token",
+        "CompiledExpression": "={0}",
+        "Type": "Custom:nC1H"
+      },
+      "ValueType": "Linx.CSharpExpression"
     },
     {
       "Id": "ParameterNameMapping",
       "Type": "Compiled:System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "ValueUsage": "DesignTime",
       "Value": {
-        "KjdH": "token"
+        "lfqp": "token"
       },
       "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
@@ -21,9 +25,9 @@
       "Type": "Compiled:Linx.IProcessReference",
       "ValueUsage": "DesignTime",
       "Value": {
-        "Id": "o2pL",
+        "Id": "Vu11",
         "Name": "GenericOAuth2.LogToken",
-        "Parameters": "Generated:p6tl",
+        "Parameters": "Generated:aHuQ",
         "Result": null,
         "IsValid": true,
         "QualifiedPath": "FL:GenericOAuth2→PC:LogToken"

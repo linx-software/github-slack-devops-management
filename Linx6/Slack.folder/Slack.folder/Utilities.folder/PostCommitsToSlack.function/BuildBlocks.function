@@ -1,0 +1,75 @@
+{
+  "Properties": [
+    {
+      "Id": "eUbM",
+      "Type": "List:Custom:xNnO",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "GetCommitsForRepo.commitList",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:xNnO"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "huc1",
+      "Type": "Compiled:Int64",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.per_page",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:Int64"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "ParameterNameMapping",
+      "Type": "Compiled:System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "eUbM": "commitList",
+        "huc1": "per_page",
+        "xX6y": "since",
+        "VQMJ": "until"
+      },
+      "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "Id": "Process",
+      "Type": "Compiled:Linx.IProcessReference",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "Id": "4vuA",
+        "Name": "Slack.Slack.Utilities.BuildBlocksForCommit",
+        "Parameters": "Generated:hW62",
+        "Result": "Custom:osaz",
+        "IsValid": true,
+        "QualifiedPath": "FL:Slack→FL:Slack→FL:Utilities→PC:BuildBlocksForCommit"
+      },
+      "ValueType": "Linx.ProcessReference"
+    },
+    {
+      "Id": "VQMJ",
+      "Type": "Compiled:DateTime",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.until",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:DateTime"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "xX6y",
+      "Type": "Compiled:DateTime",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.since",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:DateTime"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
+  "Result": "Custom:osaz"
+}

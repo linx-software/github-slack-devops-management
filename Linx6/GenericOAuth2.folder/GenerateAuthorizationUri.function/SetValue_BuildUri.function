@@ -1,0 +1,26 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.host + $.Parameters.authorize_endpoint + \"?\" + \"response_type=\" + $.Parameters.response_type + \"&client_id=\"+$.Parameters.client_id+\"&scope=\"+$.Parameters.scope+\"&state=\"+$.Parameters.state+\"&redirect_uri=\" + $.Parameters.redirect_uri",
+        "CompiledExpression": "={6}+{5}+\"?\"+\"response_type=\"+{4}+\"&client_id=\"+{3}+\"&scope=\"+{2}+\"&state=\"+{1}+\"&redirect_uri=\"+{0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "_Result.uri",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

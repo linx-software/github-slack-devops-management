@@ -1,0 +1,11 @@
+{
+  "Id": "Z8Fn",
+  "Name": "GetIssuesForRepoAndOwner_Result",
+  "Properties": [
+    {
+      "Id": "6LXT",
+      "Name": "responseBody",
+      "Type": "Compiled:String"
+    }
+  ]
+}

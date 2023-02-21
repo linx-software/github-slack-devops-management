@@ -1,7 +1,7 @@
 {
   "Properties": [
     {
-      "Id": "8chj",
+      "Id": "31vE",
       "Type": "Compiled:String",
       "ValueUsage": "RuntimeRead",
       "Value": {
@@ -12,64 +12,7 @@
       "ValueType": "Linx.CSharpExpression"
     },
     {
-      "Id": "gseW",
-      "Type": "Compiled:String",
-      "ValueUsage": "RuntimeRead",
-      "Value": {
-        "Expression": "$.Settings.GitHubApiHost",
-        "CompiledExpression": "={0}",
-        "Type": "Compiled:String"
-      },
-      "ValueType": "Linx.CSharpExpression"
-    },
-    {
-      "Id": "H3WZ",
-      "Type": "Compiled:String",
-      "ValueUsage": "RuntimeRead",
-      "Value": {
-        "Expression": "$.Settings.GitHubLocalhostUri + $.Settings.GitHubRedirectPath",
-        "CompiledExpression": "={1}+{0}",
-        "Type": "Compiled:String"
-      },
-      "ValueType": "Linx.CSharpExpression"
-    },
-    {
-      "Id": "Le9t",
-      "Type": "Compiled:String",
-      "ValueUsage": "RuntimeRead",
-      "Value": "/login/oauth/authorize"
-    },
-    {
-      "Id": "ParameterNameMapping",
-      "Type": "Compiled:System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
-      "ValueUsage": "DesignTime",
-      "Value": {
-        "Le9t": "authorize_endpoint",
-        "Q3jS": "client_id",
-        "gseW": "host",
-        "H3WZ": "redirect_uri",
-        "RAeO": "response_type",
-        "8chj": "scope",
-        "vPrY": "state"
-      },
-      "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "Id": "Process",
-      "Type": "Compiled:Linx.IProcessReference",
-      "ValueUsage": "DesignTime",
-      "Value": {
-        "Id": "BCMx",
-        "Name": "GenericOAuth2.GenerateAuthorizationUri",
-        "Parameters": "Generated:TpdK",
-        "Result": "Compiled:String",
-        "IsValid": true,
-        "QualifiedPath": "FL:GenericOAuth2→PC:GenerateAuthorizationUri"
-      },
-      "ValueType": "Linx.ProcessReference"
-    },
-    {
-      "Id": "Q3jS",
+      "Id": "4QJ3",
       "Type": "Compiled:String",
       "ValueUsage": "RuntimeRead",
       "Value": {
@@ -80,17 +23,74 @@
       "ValueType": "Linx.CSharpExpression"
     },
     {
-      "Id": "RAeO",
+      "Id": "aFMw",
       "Type": "Compiled:String",
       "ValueUsage": "RuntimeRead",
-      "Value": "code"
+      "Value": "/login/oauth/authorize"
     },
     {
-      "Id": "vPrY",
+      "Id": "O2r8",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Settings.GitHubLocalhostUri + $.Settings.GitHubRedirectPath",
+        "CompiledExpression": "={1}+{0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "ParameterNameMapping",
+      "Type": "Compiled:System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "RrkI": "host",
+        "aFMw": "authorize_endpoint",
+        "zLfx": "response_type",
+        "4QJ3": "client_id",
+        "31vE": "scope",
+        "xO6U": "state",
+        "O2r8": "redirect_uri"
+      },
+      "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "Id": "Process",
+      "Type": "Compiled:Linx.IProcessReference",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "Id": "ZyxP",
+        "Name": "GenericOAuth2.GenerateAuthorizationUri",
+        "Parameters": "Generated:KlzF",
+        "Result": "Custom:xYDE",
+        "IsValid": true,
+        "QualifiedPath": "FL:GenericOAuth2→PC:GenerateAuthorizationUri"
+      },
+      "ValueType": "Linx.ProcessReference"
+    },
+    {
+      "Id": "RrkI",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Settings.GitHubApiHost",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "xO6U",
       "Type": "Compiled:String",
       "ValueUsage": "RuntimeRead",
       "Value": "QjKcs"
+    },
+    {
+      "Id": "zLfx",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "code"
     }
   ],
-  "Result": "Compiled:String"
+  "Result": "Custom:xYDE"
 }

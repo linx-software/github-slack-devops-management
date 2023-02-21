@@ -1,0 +1,26 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "List:Custom:xNnO",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "CommitListForRepo",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:xNnO"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "List:Custom:xNnO",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "_Result.commitList",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:xNnO"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

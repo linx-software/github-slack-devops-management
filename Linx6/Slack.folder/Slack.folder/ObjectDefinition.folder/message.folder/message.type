@@ -1,0 +1,26 @@
+{
+  "Id": "JHNh",
+  "Name": "message",
+  "Properties": [
+    {
+      "Id": "6WSR",
+      "Name": "ok",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "G4Uf",
+      "Name": "channel",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "JlaI",
+      "Name": "ts",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "zTPL",
+      "Name": "message",
+      "Type": "Custom:5vJE"
+    }
+  ]
+}

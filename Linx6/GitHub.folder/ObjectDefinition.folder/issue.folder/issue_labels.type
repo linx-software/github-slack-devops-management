@@ -1,39 +1,39 @@
 {
-  "Id": "lYkm",
+  "Id": "oLJt",
   "Name": "issue_labels",
   "Properties": [
     {
-      "Id": "EVpr",
+      "Id": "7vLl",
       "Name": "id",
       "Type": "Compiled:Int64"
     },
     {
-      "Id": "cME4",
+      "Id": "pHFB",
       "Name": "node_id",
       "Type": "Compiled:String"
     },
     {
-      "Id": "Sdnl",
+      "Id": "sSGo",
       "Name": "url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "t1se",
+      "Id": "ppr4",
       "Name": "name",
       "Type": "Compiled:String"
     },
     {
-      "Id": "ZV9M",
+      "Id": "MwOL",
       "Name": "description",
       "Type": "Compiled:String"
     },
     {
-      "Id": "sJfW",
+      "Id": "QYg9",
       "Name": "color",
       "Type": "Compiled:String"
     },
     {
-      "Id": "kThT",
+      "Id": "xUTP",
       "Name": "default",
       "Type": "Compiled:Boolean"
     }

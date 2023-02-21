@@ -2,18 +2,18 @@
   {
     "Type": "Generated",
     "Value": {
-      "Id": "zrUl",
+      "Id": "Zgj1",
       "Properties": [
         {
           "Id": "ResponseHeaders",
           "Name": "ResponseHeaders",
-          "Type": "List:Generated:xLWM",
+          "Type": "List:Generated:UsxX",
           "Access": "ReadWrite"
         },
         {
           "Id": "ResponseBody",
           "Name": "ResponseBody",
-          "Type": "Custom:2nzn",
+          "Type": "Custom:nC1H",
           "Access": "ReadWrite"
         },
         {
@@ -28,7 +28,7 @@
   {
     "Type": "Generated",
     "Value": {
-      "Id": "xLWM",
+      "Id": "UsxX",
       "Properties": [
         {
           "Id": "Name",

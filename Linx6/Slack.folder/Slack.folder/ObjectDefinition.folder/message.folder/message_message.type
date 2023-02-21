@@ -1,0 +1,41 @@
+{
+  "Id": "5vJE",
+  "Name": "message_message",
+  "Properties": [
+    {
+      "Id": "TOEc",
+      "Name": "text",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "iyDj",
+      "Name": "username",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "Mm6G",
+      "Name": "bot_id",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "BDpQ",
+      "Name": "attachments",
+      "Type": "List:Custom:5uf4"
+    },
+    {
+      "Id": "VRBD",
+      "Name": "type",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "OFtn",
+      "Name": "subtype",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "OIjS",
+      "Name": "ts",
+      "Type": "Compiled:String"
+    }
+  ]
+}

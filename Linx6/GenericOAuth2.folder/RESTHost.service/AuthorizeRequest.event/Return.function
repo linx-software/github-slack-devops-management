@@ -1,0 +1,33 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Generated:m5ul",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"HttpContext\":{\"StatusCode\":301, \"Headers\":[{\"Name\":\"Location\", \"Value\":[{\"LinxExpression\":\"[PARSED]\"}]}]}, \"ResponseXXX\":\"\"}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "HttpContext",
+              "Headers",
+              "[]",
+              "Value",
+              "[]"
+            ],
+            "expression": {
+              "Expression": "GenerateAuthorizationUri.uri",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    }
+  ],
+  "RuntimeCharacteristics": {
+    "IsTerminating": true,
+    "ExecutionPathExecution": "ZeroOrMore"
+  }
+}

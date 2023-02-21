@@ -1,0 +1,16 @@
+{
+  "Id": "aaKP",
+  "Name": "text",
+  "Properties": [
+    {
+      "Id": "gfdA",
+      "Name": "type",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "DIrg",
+      "Name": "text",
+      "Type": "Compiled:String"
+    }
+  ]
+}

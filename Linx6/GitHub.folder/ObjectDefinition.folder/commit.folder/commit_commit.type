@@ -1,41 +1,26 @@
 {
-  "Id": "VJ7a",
+  "Id": "Ekdo",
   "Name": "commit_commit",
   "Properties": [
     {
-      "Id": "iQD6",
-      "Name": "author",
-      "Type": "Custom:K5cq"
-    },
-    {
-      "Id": "qsPi",
-      "Name": "committer",
-      "Type": "Custom:K5cq"
-    },
-    {
-      "Id": "K7N6",
-      "Name": "message",
-      "Type": "Compiled:String"
-    },
-    {
-      "Id": "gdfT",
-      "Name": "tree",
-      "Type": "Custom:q60L"
-    },
-    {
-      "Id": "rX5y",
+      "Id": "lBEq",
       "Name": "url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "NwDs",
-      "Name": "comment_count",
-      "Type": "Compiled:Int64"
+      "Id": "scpZ",
+      "Name": "author",
+      "Type": "Custom:71sv"
     },
     {
-      "Id": "SyCv",
-      "Name": "verification",
-      "Type": "Custom:kXIK"
+      "Id": "wAYb",
+      "Name": "committer",
+      "Type": "Custom:71sv"
+    },
+    {
+      "Id": "BZMG",
+      "Name": "message",
+      "Type": "Compiled:String"
     }
   ]
 }

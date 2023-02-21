@@ -1,24 +1,24 @@
 {
-  "Id": "7cJs",
+  "Id": "qerj",
   "Name": "issue_pull_request",
   "Properties": [
     {
-      "Id": "iF7L",
+      "Id": "TaNf",
       "Name": "url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "bVav",
+      "Id": "m61P",
       "Name": "html_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "bm1Q",
+      "Id": "NFic",
       "Name": "diff_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "vUhh",
+      "Id": "1RKO",
       "Name": "patch_url",
       "Type": "Compiled:String"
     }

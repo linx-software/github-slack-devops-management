@@ -2,7 +2,7 @@
   "Properties": [
     {
       "Id": "Encoding",
-      "Type": "Compiled:Twenty57.Linx.Plugins.File.Common.FileReadWrite.Encoding, Twenty57.Linx.Plugins.File, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null",
+      "Type": "Compiled:Twenty57.Linx.Plugins.File.Common.FileReadWrite.Encoding, Twenty57.Linx.Plugins.File, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null",
       "ValueUsage": "DesignTime",
       "Value": "Default"
     },
@@ -19,7 +19,7 @@
     },
     {
       "Id": "Return options",
-      "Type": "Compiled:Twenty57.Linx.Plugins.File.TextFileRead.FileReadOptions, Twenty57.Linx.Plugins.File, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null",
+      "Type": "Compiled:Twenty57.Linx.Plugins.File.TextFileRead.FileReadOptions, Twenty57.Linx.Plugins.File, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null",
       "ValueUsage": "DesignTime",
       "Value": "Complete"
     }

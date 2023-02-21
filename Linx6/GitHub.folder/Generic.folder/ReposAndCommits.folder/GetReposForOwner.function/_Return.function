@@ -2,12 +2,12 @@
   "Properties": [
     {
       "Id": "Value",
-      "Type": "List:Custom:7KzL",
+      "Type": "Custom:B1zu",
       "ValueUsage": "RuntimeRead",
       "Value": {
-        "Expression": "CallRESTEndpoint.ResponseBody",
+        "Expression": "_Result",
         "CompiledExpression": "={0}",
-        "Type": "List:Custom:7KzL"
+        "Type": "Custom:B1zu"
       },
       "ValueType": "Linx.CSharpExpression"
     }

@@ -1,0 +1,26 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Custom:nC1H",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "CallRESTEndpoint.ResponseBody",
+        "CompiledExpression": "={0}",
+        "Type": "Custom:nC1H"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Custom:nC1H",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "_Result.token",
+        "CompiledExpression": "={0}",
+        "Type": "Custom:nC1H"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

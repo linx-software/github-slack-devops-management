@@ -1,30 +1,30 @@
 {
-  "Id": "hXA6",
+  "Id": "CaZh",
   "Name": "TempIssue",
   "Properties": [
     {
-      "Id": "eq7Z",
-      "Name": "body",
-      "Type": "Compiled:String"
-    },
-    {
-      "Id": "3f1Y",
-      "Name": "created_at",
-      "Type": "Compiled:DateTime"
-    },
-    {
-      "Id": "a4mS",
+      "Id": "Fof4",
       "Name": "repoName",
       "Type": "Compiled:String"
     },
     {
-      "Id": "FYCE",
+      "Id": "P2fr",
       "Name": "repoUrl",
       "Type": "Compiled:String"
     },
     {
-      "Id": "lGkS",
+      "Id": "8j2X",
+      "Name": "created_at",
+      "Type": "Compiled:DateTime"
+    },
+    {
+      "Id": "1LkY",
       "Name": "title",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "lV9e",
+      "Name": "body",
       "Type": "Compiled:String"
     }
   ]

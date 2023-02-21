@@ -1,0 +1,11 @@
+{
+  "Id": "pVGb",
+  "Name": "RetrieveToken_Result",
+  "Properties": [
+    {
+      "Id": "sMRv",
+      "Name": "token",
+      "Type": "Custom:nC1H"
+    }
+  ]
+}

@@ -2,12 +2,12 @@
   "Properties": [
     {
       "Id": "Value",
-      "Type": "Compiled:String",
+      "Type": "Custom:Z8Fn",
       "ValueUsage": "RuntimeRead",
       "Value": {
-        "Expression": "CallRESTEndpoint.ResponseBody",
+        "Expression": "_Result",
         "CompiledExpression": "={0}",
-        "Type": "Compiled:String"
+        "Type": "Custom:Z8Fn"
       },
       "ValueType": "Linx.CSharpExpression"
     }

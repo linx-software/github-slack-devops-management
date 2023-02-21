@@ -1,0 +1,11 @@
+{
+  "Id": "osaz",
+  "Name": "BuildBlocksForCommit_Result",
+  "Properties": [
+    {
+      "Id": "MBHC",
+      "Name": "blocks",
+      "Type": "Compiled:String"
+    }
+  ]
+}

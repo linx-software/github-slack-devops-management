@@ -1,0 +1,21 @@
+{
+  "Id": "sLLo",
+  "Name": "response",
+  "Properties": [
+    {
+      "Id": "hUCr",
+      "Name": "ok",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "6e5v",
+      "Name": "channels",
+      "Type": "List:Custom:eQKf"
+    },
+    {
+      "Id": "3wWf",
+      "Name": "response_metadata",
+      "Type": "Custom:o2C5"
+    }
+  ]
+}

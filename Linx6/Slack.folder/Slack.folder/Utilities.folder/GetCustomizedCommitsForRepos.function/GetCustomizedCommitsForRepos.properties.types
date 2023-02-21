@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "Z6Dm",
+      "Properties": [
+        {
+          "Id": "Dyii",
+          "Name": "since",
+          "Type": "Compiled:DateTime",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "51an",
+          "Name": "until",
+          "Type": "Compiled:DateTime",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "DcAo",
+          "Name": "per_page",
+          "Type": "Compiled:Int64",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

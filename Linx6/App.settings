@@ -1,80 +1,68 @@
 [
   {
-    "Id": "uWoq",
-    "Name": "GitHubApiHost",
-    "Type": "Compiled:String",
-    "Value": "https://github.com"
-  },
-  {
-    "Id": "mC9p",
-    "Name": "GitHubClientId",
-    "Type": "Compiled:String",
-    "Secret": true
-  },
-  {
-    "Id": "duCH",
+    "Id": "8Fxy",
     "Name": "GitHubClientSecret",
     "Type": "Compiled:String",
     "Secret": true
   },
   {
-    "Id": "l9Ej",
+    "Id": "SXT2",
+    "Name": "GitHubClientId",
+    "Type": "Compiled:String",
+    "Secret": true
+  },
+  {
+    "Id": "52tH",
     "Name": "GitHubLocalhostUri",
     "Type": "Compiled:String",
     "Value": "http://localhost:8080"
   },
   {
-    "Id": "rubX",
+    "Id": "XxLK",
     "Name": "GitHubRedirectPath",
     "Type": "Compiled:String",
     "Value": "/oauth/token"
   },
   {
-    "Id": "IK79",
+    "Id": "QBjc",
+    "Name": "GitHubTokenLogPath",
+    "Type": "Compiled:String",
+    "Value": "C:/temp/Linx/OAuth2/token.txt"
+  },
+  {
+    "Id": "lhSg",
+    "Name": "GitHubApiHost",
+    "Type": "Compiled:String",
+    "Value": "https://github.com"
+  },
+  {
+    "Id": "UXV0",
     "Name": "GitHubScope",
     "Type": "Compiled:String",
     "Value": "repo, user"
   },
   {
-    "Id": "fGCw",
-    "Name": "GitHubTokenLogPath",
-    "Type": "Compiled:String",
-    "Value": "{rootPath}\\OAuth2\\token.txt"
-  },
-  {
-    "Id": "O3LB",
-    "Name": "rootPath",
-    "Type": "Compiled:String",
-    "Value": "c:\\temp\\Linx"
-  },
-  {
-    "Id": "vmI6",
+    "Id": "aDCk",
     "Name": "GitHubApiBaseUrl",
     "Type": "Compiled:String",
     "Value": "https://api.github.com"
   },
   {
-    "Id": "ifUc",
+    "Id": "KwX5",
     "Name": "GitHubOwner",
     "Type": "Compiled:String",
-    "Value": ""
+    "Value": "linx-software"
   },
   {
-    "Id": "uKwD",
+    "Id": "5RCM",
     "Name": "SlackBotUserOAuth",
     "Type": "Compiled:String",
     "Secret": true
   },
   {
-    "Id": "y1vY",
+    "Id": "LJo8",
     "Name": "SlackUri",
     "Type": "Compiled:String",
     "Value": "https://slack.com/api/"
-  },
-  {
-    "Id": "j8tc",
-    "Name": "SlackChannel",
-    "Type": "Compiled:String",
-    "Value": ""
   }
 ]

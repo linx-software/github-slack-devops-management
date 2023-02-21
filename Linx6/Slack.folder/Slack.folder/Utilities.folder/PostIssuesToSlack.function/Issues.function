@@ -1,0 +1,23 @@
+{
+  "Properties": [
+    {
+      "Id": "Type",
+      "Type": "Compiled:Linx.ITypeReference",
+      "ValueUsage": "DesignTime",
+      "Value": "Custom:RgrX",
+      "ValueType": "Linx.ValidCustomTypeReference"
+    },
+    {
+      "Id": "Value",
+      "Type": "List:Custom:RgrX",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "GetIssuesForRepo.responseBody",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
+  "Result": "List:Custom:RgrX"
+}

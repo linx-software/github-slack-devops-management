@@ -1,29 +1,19 @@
 {
-  "Id": "nbG5",
+  "Id": "9ZWX",
   "Name": "repo_permissions",
   "Properties": [
     {
-      "Id": "vWUD",
+      "Id": "ihHj",
       "Name": "admin",
       "Type": "Compiled:Boolean"
     },
     {
-      "Id": "xaK0",
-      "Name": "maintain",
-      "Type": "Compiled:Boolean"
-    },
-    {
-      "Id": "5Ov8",
+      "Id": "1Ocr",
       "Name": "push",
       "Type": "Compiled:Boolean"
     },
     {
-      "Id": "31s7",
-      "Name": "triage",
-      "Type": "Compiled:Boolean"
-    },
-    {
-      "Id": "LvI2",
+      "Id": "X4KK",
       "Name": "pull",
       "Type": "Compiled:Boolean"
     }

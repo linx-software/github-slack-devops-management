@@ -1,0 +1,11 @@
+{
+  "Id": "e59w",
+  "Name": "GetChannels_Result",
+  "Properties": [
+    {
+      "Id": "BPVI",
+      "Name": "Channels",
+      "Type": "List:Custom:eQKf"
+    }
+  ]
+}

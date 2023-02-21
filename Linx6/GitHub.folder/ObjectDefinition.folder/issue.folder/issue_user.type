@@ -1,94 +1,94 @@
 {
-  "Id": "M2dI",
+  "Id": "Kp5A",
   "Name": "issue_user",
   "Properties": [
     {
-      "Id": "GrFf",
+      "Id": "iioD",
       "Name": "login",
       "Type": "Compiled:String"
     },
     {
-      "Id": "emRP",
+      "Id": "TLWf",
       "Name": "id",
       "Type": "Compiled:Int64"
     },
     {
-      "Id": "agKn",
+      "Id": "Q5VY",
       "Name": "node_id",
       "Type": "Compiled:String"
     },
     {
-      "Id": "YUf5",
+      "Id": "Yrxu",
       "Name": "avatar_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "6LhR",
+      "Id": "QbiJ",
       "Name": "gravatar_id",
       "Type": "Compiled:String"
     },
     {
-      "Id": "kzBu",
+      "Id": "v3cN",
       "Name": "url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "JJbx",
+      "Id": "Ng1M",
       "Name": "html_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "f6aB",
+      "Id": "QlXt",
       "Name": "followers_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "N9cT",
+      "Id": "8LeS",
       "Name": "following_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "w1SX",
+      "Id": "QpaG",
       "Name": "gists_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "AY2y",
+      "Id": "yaow",
       "Name": "starred_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "1DLX",
+      "Id": "N125",
       "Name": "subscriptions_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "6adn",
+      "Id": "gaof",
       "Name": "organizations_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "a2ZV",
+      "Id": "Nmjk",
       "Name": "repos_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "KYmW",
+      "Id": "Rl3E",
       "Name": "events_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "dopP",
+      "Id": "Shid",
       "Name": "received_events_url",
       "Type": "Compiled:String"
     },
     {
-      "Id": "yTvT",
+      "Id": "S1lW",
       "Name": "type",
       "Type": "Compiled:String"
     },
     {
-      "Id": "KEMz",
+      "Id": "qNSv",
       "Name": "site_admin",
       "Type": "Compiled:Boolean"
     }

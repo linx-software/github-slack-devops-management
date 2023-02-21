@@ -1,0 +1,39 @@
+{
+  "Properties": [
+    {
+      "Id": "mNvb",
+      "Type": "Custom:CaZh",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "TempIssue",
+        "CompiledExpression": "={0}",
+        "Type": "Custom:CaZh"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "ParameterNameMapping",
+      "Type": "Compiled:System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "mNvb": "issue"
+      },
+      "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "Id": "Process",
+      "Type": "Compiled:Linx.IProcessReference",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "Id": "k7A2",
+        "Name": "Slack.Slack.Utilities.BuildBlocksForIssue",
+        "Parameters": "Generated:UPVc",
+        "Result": "Custom:g5tS",
+        "IsValid": true,
+        "QualifiedPath": "FL:Slack→FL:Slack→FL:Utilities→PC:BuildBlocksForIssue"
+      },
+      "ValueType": "Linx.ProcessReference"
+    }
+  ],
+  "Result": "Custom:g5tS"
+}

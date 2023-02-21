@@ -1,0 +1,26 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "List:Custom:eQKf",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "CallRESTEndpoint.ResponseBody.channels",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:eQKf"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "List:Custom:eQKf",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "_Result.Channels",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:eQKf"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

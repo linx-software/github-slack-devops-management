@@ -1,0 +1,25 @@
+{
+  "Properties": [
+    {
+      "Id": "List",
+      "Type": "List:Custom:RgrX",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "Issues",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:RgrX"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
+  "ExecutionPaths": [
+    {
+      "PluginId": "Loop",
+      "Name": "Loop",
+      "Result": "List:Custom:RgrX",
+      "Order": 0,
+      "IterationHint": "ZeroOrMore",
+      "ConstitutesControlFlow": true
+    }
+  ]
+}

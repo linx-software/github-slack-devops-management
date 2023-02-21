@@ -2,36 +2,36 @@
   {
     "Type": "Generated",
     "Value": {
-      "Id": "g4YF",
+      "Id": "pLBB",
       "Properties": [
         {
-          "Id": "XQnE",
+          "Id": "MWmk",
+          "Name": "since",
+          "Type": "Compiled:DateTime",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "8GHr",
+          "Name": "until",
+          "Type": "Compiled:DateTime",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "cGTa",
           "Name": "per_page",
           "Type": "Compiled:Int64",
           "Access": "ReadWrite"
         },
         {
-          "Id": "OBdD",
+          "Id": "vV5T",
           "Name": "repo",
           "Type": "Compiled:String",
           "Access": "ReadWrite"
         },
         {
-          "Id": "VRYj",
-          "Name": "since",
-          "Type": "Compiled:String",
-          "Access": "ReadWrite"
-        },
-        {
-          "Id": "oQdj",
+          "Id": "3nim",
           "Name": "token",
-          "Type": "Custom:2nzn",
-          "Access": "ReadWrite"
-        },
-        {
-          "Id": "DzyK",
-          "Name": "until",
-          "Type": "Compiled:String",
+          "Type": "Custom:nC1H",
           "Access": "ReadWrite"
         }
       ]

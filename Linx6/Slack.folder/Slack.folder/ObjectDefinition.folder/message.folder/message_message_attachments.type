@@ -1,0 +1,21 @@
+{
+  "Id": "5uf4",
+  "Name": "message_message_attachments",
+  "Properties": [
+    {
+      "Id": "DqUg",
+      "Name": "text",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "U9Nx",
+      "Name": "id",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "Bspw",
+      "Name": "fallback",
+      "Type": "Compiled:String"
+    }
+  ]
+}

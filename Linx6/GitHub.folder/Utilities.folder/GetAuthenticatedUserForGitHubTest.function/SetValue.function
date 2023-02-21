@@ -1,0 +1,26 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Custom:tfHY",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "CallRESTEndpoint.ResponseBody",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Custom:tfHY",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "_Result.user",
+        "CompiledExpression": "={0}",
+        "Type": "Custom:tfHY"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

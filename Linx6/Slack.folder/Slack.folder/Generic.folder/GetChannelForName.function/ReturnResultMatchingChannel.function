@@ -1,0 +1,26 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Custom:eQKf",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "GetChannels.Channels.Where(channel => channel.name_normalized.ToLower() ==  $.Parameters.ChannelNameNormalized.ToLower()).FirstOrDefault()",
+        "CompiledExpression": "={1}.Where(channel=>channel.name_normalized.ToLower()=={0}.ToLower()).FirstOrDefault()",
+        "Type": "Custom:eQKf"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Custom:eQKf",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "_Result.Channel",
+        "CompiledExpression": "={0}",
+        "Type": "Custom:eQKf"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

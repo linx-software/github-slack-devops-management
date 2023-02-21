@@ -1,0 +1,11 @@
+{
+  "Id": "oH7o",
+  "Name": "GetChannelForName_Result",
+  "Properties": [
+    {
+      "Id": "VC1v",
+      "Name": "Channel",
+      "Type": "Custom:eQKf"
+    }
+  ]
+}

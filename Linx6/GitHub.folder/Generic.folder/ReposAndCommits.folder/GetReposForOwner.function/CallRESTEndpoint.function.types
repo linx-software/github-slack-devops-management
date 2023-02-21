@@ -2,18 +2,18 @@
   {
     "Type": "Generated",
     "Value": {
-      "Id": "GPtX",
+      "Id": "hZzl",
       "Properties": [
         {
           "Id": "ResponseHeaders",
           "Name": "ResponseHeaders",
-          "Type": "List:Generated:wfcd",
+          "Type": "List:Generated:GUGK",
           "Access": "ReadWrite"
         },
         {
           "Id": "ResponseBody",
           "Name": "ResponseBody",
-          "Type": "List:Custom:7KzL",
+          "Type": "Compiled:String",
           "Access": "ReadWrite"
         },
         {
@@ -28,7 +28,7 @@
   {
     "Type": "Generated",
     "Value": {
-      "Id": "wfcd",
+      "Id": "GUGK",
       "Properties": [
         {
           "Id": "Name",

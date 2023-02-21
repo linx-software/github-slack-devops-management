@@ -1,8 +1,8 @@
 {
   "Properties": [
     {
-      "Id": "7orj",
-      "Type": "Compiled:String",
+      "Id": "c6oQ",
+      "Type": "Compiled:DateTime",
       "ValueUsage": "RuntimeRead",
       "Value": {
         "Expression": "$.Parameters.until",
@@ -12,19 +12,8 @@
       "ValueType": "Linx.CSharpExpression"
     },
     {
-      "Id": "aBXM",
-      "Type": "Compiled:Int64",
-      "ValueUsage": "RuntimeRead",
-      "Value": {
-        "Expression": "$.Parameters.per_page",
-        "CompiledExpression": "={0}",
-        "Type": "Compiled:Int64"
-      },
-      "ValueType": "Linx.CSharpExpression"
-    },
-    {
-      "Id": "iIW8",
-      "Type": "Compiled:String",
+      "Id": "FOWe",
+      "Type": "Compiled:DateTime",
       "ValueUsage": "RuntimeRead",
       "Value": {
         "Expression": "$.Parameters.since",
@@ -38,10 +27,10 @@
       "Type": "Compiled:System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "ValueUsage": "DesignTime",
       "Value": {
-        "ZAY6": "channel",
-        "aBXM": "per_page",
-        "iIW8": "since",
-        "7orj": "until"
+        "FOWe": "since",
+        "c6oQ": "until",
+        "wcQX": "per_page",
+        "wOoa": "channel"
       },
       "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
@@ -50,21 +39,32 @@
       "Type": "Compiled:Linx.IProcessReference",
       "ValueUsage": "DesignTime",
       "Value": {
-        "Id": "Gs6O",
-        "Name": "Slack.Utilities.PostCommitsToSlack",
-        "Parameters": "Generated:hzYe",
+        "Id": "DczV",
+        "Name": "Slack.Slack.Utilities.PostCommitsToSlack",
+        "Parameters": "Generated:s1Nj",
         "Result": null,
         "IsValid": true,
-        "QualifiedPath": "FL:Slack→FL:Utilities→PC:PostCommitsToSlack"
+        "QualifiedPath": "FL:Slack→FL:Slack→FL:Utilities→PC:PostCommitsToSlack"
       },
       "ValueType": "Linx.ProcessReference"
     },
     {
-      "Id": "ZAY6",
+      "Id": "wcQX",
+      "Type": "Compiled:Int64",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.per_page",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:Int64"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "wOoa",
       "Type": "Compiled:String",
       "ValueUsage": "RuntimeRead",
       "Value": {
-        "Expression": "$.Parameters.channel",
+        "Expression": "GetChannelForName.Channel.name",
         "CompiledExpression": "={0}",
         "Type": "Compiled:String"
       },

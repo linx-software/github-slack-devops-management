@@ -1,0 +1,11 @@
+{
+  "Id": "AduF",
+  "Name": "GetAuthenticatedUserForGitHubTest_Result",
+  "Properties": [
+    {
+      "Id": "8Jz0",
+      "Name": "user",
+      "Type": "Custom:tfHY"
+    }
+  ]
+}

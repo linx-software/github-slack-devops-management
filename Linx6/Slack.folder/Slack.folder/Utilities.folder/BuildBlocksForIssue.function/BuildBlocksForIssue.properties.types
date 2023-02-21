@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "UPVc",
+      "Properties": [
+        {
+          "Id": "mNvb",
+          "Name": "issue",
+          "Type": "Custom:CaZh",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

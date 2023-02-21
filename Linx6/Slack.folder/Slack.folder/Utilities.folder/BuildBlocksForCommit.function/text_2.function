@@ -1,0 +1,33 @@
+{
+  "Properties": [
+    {
+      "Id": "Type",
+      "Type": "Compiled:Linx.ITypeReference",
+      "ValueUsage": "DesignTime",
+      "Value": "Custom:aaKP",
+      "ValueType": "Linx.ValidCustomTypeReference"
+    },
+    {
+      "Id": "Value",
+      "Type": "Custom:aaKP",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"type\":\"mrkdwn\", \"text\":{\"LinxExpression\":\"[PARSED]\"}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "text"
+            ],
+            "expression": {
+              "Expression": "ForEach3.Loop.commit.author.name==$.System.Null ?\" \" :\"\\n *Commit by : * \"+ForEach3.Loop.commit.author.name + \" -  \"+ForEach3.Loop.commit.author.date + \"\\n <\" +ForEach2.Loop.repoUrl +\"|Click here to see more>\"",
+              "CompiledExpression": "={4}=={3}?\" \":\"\\n *Commit by : * \"+{2}+\" -  \"+{1}+\"\\n <\"+{0}+\"|Click here to see more>\"",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    }
+  ],
+  "Result": "Custom:aaKP"
+}

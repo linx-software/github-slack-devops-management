@@ -1,0 +1,11 @@
+{
+  "Id": "xYDE",
+  "Name": "GenerateAuthorizationUri_Result",
+  "Properties": [
+    {
+      "Id": "JGDu",
+      "Name": "uri",
+      "Type": "Compiled:String"
+    }
+  ]
+}

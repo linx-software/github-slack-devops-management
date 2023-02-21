@@ -1,0 +1,29 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Generated:D3P2",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"HttpContext\":{\"StatusCode\":200}, \"ResponseXXX\":{\"LinxExpression\":\"[PARSED]\"}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "ResponseXXX"
+            ],
+            "expression": {
+              "Expression": "\"GitHub User '\" + GetAuthenticatedUser.user.name + \"' successfully authenticated\"",
+              "CompiledExpression": "=\"GitHub User '\"+{0}+\"' successfully authenticated\"",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    }
+  ],
+  "RuntimeCharacteristics": {
+    "IsTerminating": true,
+    "ExecutionPathExecution": "ZeroOrMore"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "Properties": [
+    {
+      "Id": "Type",
+      "Type": "Compiled:Linx.ITypeReference",
+      "ValueUsage": "DesignTime",
+      "Value": "Custom:wXnt",
+      "ValueType": "Linx.ValidCustomTypeReference"
+    },
+    {
+      "Id": "Value",
+      "Type": "Custom:wXnt",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"type\":\"mrkdwn\",\"text\":{\"LinxExpression\":\"[PARSED]\"},\"emoji\":true}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "text"
+            ],
+            "expression": {
+              "Expression": "\"*Repo :* \"+ $.Parameters.issue.repoName+ \", \"+ $.Parameters.issue.repoUrl + \"\\t*Created at :* \"+ $.Parameters.issue.created_at.ToString(\"yyyy-MM-dd\") + \"\\n :card_index_dividers: *\"+ $.Parameters.issue.title +\" * \\n\" + $.Parameters.issue.body",
+              "CompiledExpression": "=\"*Repo :* \"+{4}+\", \"+{3}+\"\\t*Created at :* \"+{2}.ToString(\"yyyy-MM-dd\")+\"\\n :card_index_dividers: *\"+{1}+\" * \\n\"+{0}",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    }
+  ],
+  "Result": "Custom:wXnt"
+}

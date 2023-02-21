@@ -1,0 +1,11 @@
+{
+  "Id": "o2C5",
+  "Name": "responseMetadata",
+  "Properties": [
+    {
+      "Id": "A1pf",
+      "Name": "next_cursor",
+      "Type": "Compiled:String"
+    }
+  ]
+}

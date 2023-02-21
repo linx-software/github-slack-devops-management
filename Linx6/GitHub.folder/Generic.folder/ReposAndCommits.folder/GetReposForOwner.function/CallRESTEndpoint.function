@@ -4,7 +4,7 @@
       "Id": "Allow untrusted certificates",
       "Type": "Compiled:Boolean",
       "ValueUsage": "RuntimeRead",
-      "Value": false
+      "Value": true
     },
     {
       "Id": "Body",
@@ -15,7 +15,7 @@
     },
     {
       "Id": "Body format",
-      "Type": "Compiled:Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.BodyFormatType, Twenty57.Linx.Plugins.Rest, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.BodyFormatType, Twenty57.Linx.Plugins.Rest, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null",
       "ValueUsage": "DesignTime",
       "Value": "Text"
     },
@@ -33,7 +33,7 @@
     },
     {
       "Id": "Headers",
-      "Type": "Compiled:System.Collections.Generic.List`1[[Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.NameValuePair, Twenty57.Linx.Plugins.Rest, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Type": "Compiled:System.Collections.Generic.List`1[[Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.NameValuePair, Twenty57.Linx.Plugins.Rest, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "ValueUsage": "RuntimeRead",
       "Value": {
         "ParsedExpression": "[{\"Name\":\"Authorization\",\"Value\":{\"LinxExpression\":\"[PARSED]\"}},{\"Name\":\"User-Agent\",\"Value\":\"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 YaBrowser/16.3.0.7146 Yowser/2.5 Safari/537.36\"}]",
@@ -62,7 +62,7 @@
     },
     {
       "Id": "Method",
-      "Type": "Compiled:Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.HttpMethod, Twenty57.Linx.Plugins.Rest, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.HttpMethod, Twenty57.Linx.Plugins.Rest, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null",
       "ValueUsage": "DesignTime",
       "Value": "GET"
     },
@@ -70,8 +70,8 @@
       "Id": "Output type",
       "Type": "Compiled:Linx.ITypeReference",
       "ValueUsage": "DesignTime",
-      "Value": "List:Custom:7KzL",
-      "ValueType": "Twenty57.Linx.SolutionDependencies.Types.ListTypeReference, Twenty57.Linx.SolutionDependencies.Types, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null"
+      "Value": "Compiled:String",
+      "ValueType": "Twenty57.Linx.SolutionDependencies.Types.CompiledTypeReference, Twenty57.Linx.SolutionDependencies.Types, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null"
     },
     {
       "Id": "Port",
@@ -88,7 +88,7 @@
     },
     {
       "Id": "Query string",
-      "Type": "Compiled:System.Collections.Generic.List`1[[Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.NameValuePair, Twenty57.Linx.Plugins.Rest, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Type": "Compiled:System.Collections.Generic.List`1[[Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.NameValuePair, Twenty57.Linx.Plugins.Rest, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "ValueUsage": "RuntimeRead",
       "Value": null
     },
@@ -112,7 +112,7 @@
     },
     {
       "Id": "Type",
-      "Type": "Compiled:Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.AuthenticationType, Twenty57.Linx.Plugins.Rest, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Rest.CallRESTEndpoint.AuthenticationType, Twenty57.Linx.Plugins.Rest, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null",
       "ValueUsage": "DesignTime",
       "Value": "Anonymous"
     },
@@ -128,5 +128,10 @@
       "ValueType": "Linx.CSharpExpression"
     }
   ],
-  "Result": "Generated:GPtX"
+  "Result": "Generated:hZzl",
+  "RuntimeCharacteristics": {
+    "IsTerminating": false,
+    "ExecutionPathExecution": "OneOrMore"
+  },
+  "Version": "1"
 }
